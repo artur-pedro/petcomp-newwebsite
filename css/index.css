@@ -1,0 +1,366 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-color: #01204C;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.petianos-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+
+.noticias-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 2rem;
+}
+
+.noticias-container img {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Sombra sutil */
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 20px;
+    animation: fadeIn 1s ease-out;
+}
+
+.central-img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    min-width: 700px;
+    max-height: 500px;
+    min-height: 500px;
+    animation: fadeIn 1s ease-out;
+}
+
+.lateral-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 240px;
+    max-height: 240px;
+    animation: fadeIn 1.2s ease-out;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.col-12, .col-md-6, .col-md-3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.col-md-6 {
+    flex: 0 0 40%;
+    margin-right: 1rem;
+}
+
+.col-md-3 {
+    flex: 0 0 20%;
+}
+
+.ultimasnoticiastext {
+    font-family: 'Alatsi';
+    text-align: center;
+    margin-top: 2rem;
+    color: #01204C;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+.ultimasnoticiastext h1 {
+    font-size: 60px;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.central-title, .lateral-title {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(1, 32, 76, 0.6);
+    border-radius: 10px;
+    max-width: 80%;
+    text-align: center;
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+@keyframes titleSlide {
+    0% {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.lateral-title {
+    font-size: 14px;
+    animation: titleSlide 1s ease-out;
+}
+
+.central-title {
+    font-size: 20px;
+    animation: titleSlide 1.2s ease-out;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+    transform: scale(1.06);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.image-container:hover .central-title,
+.image-container:hover .lateral-title {
+    transform: scale(1.06);
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.noticia {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.noticia.fade-out {
+    opacity: 0;
+    transform: translateX(50px);
+}
+
+.noticia.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+.minifundo {
+    width: 100%; /* Garante que o contêiner ocupe toda a largura */
+    height: 20vh; /* Define a altura para 100% da altura da janela de visualização */
+    padding: 0;  /* Remove qualquer padding */
+    margin: 0;   /* Remove margens */
+    position: relative; /* Permite usar z-index para sobrepor elementos */
+}
+
+.background-img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura da div */
+    height: 100%; /* Faz com que a imagem ocupe toda a altura da div */
+    object-fit: cover; /* Garante que a imagem cubra toda a área sem distorcer */
+    position: absolute; /* Permite que a imagem fique atrás do texto */
+    top: 0;
+    left: 0;
+    z-index: 0; /* Garante que a imagem fique atrás do texto */
+}
+
+.minifundo h2 {
+    color: white; /* Cor do texto para contraste */
+    font-size: 5rem; /* Tamanho do texto */
+    position: absolute; /* Permite posicionar o texto sobre a imagem */
+    top: 20px; /* Posiciona o texto no topo */
+    left: 50%; /* Centraliza o texto horizontalmente */
+    transform: translateX(-50%); /* Ajusta a posição horizontalmente para centralizar */
+    z-index: 1; /* Garante que o texto fique sobre a imagem */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Adiciona um pouco de padding ao texto */
+    font-family: 'Mada';
+    font-weight: bold;
+}
+.minifundo {
+    width: 100%; /* Garante que o contêiner ocupe toda a largura */
+    height: 75vh; /* Define a altura para 100% da altura da janela de visualização */
+    padding: 0; /* Remove qualquer padding */
+    margin: 0; /* Remove margens */
+    position: relative; /* Permite usar z-index para posicionamento */
+}
+
+.background-img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura da div */
+    height: 100%; /* Faz com que a imagem ocupe toda a altura da div */
+    object-fit: cover; /* Garante que a imagem cubra toda a área sem distorcer */
+    position: absolute; /* Faz com que a imagem seja o plano de fundo */
+    top: 0;
+    left: 0;
+    z-index: 0; /* Garante que o fundo fique atrás de outros elementos */
+}
+
+.minifundo h2,
+.minifundo ul {
+    position: relative; /* Coloca esses elementos na frente do fundo */
+    z-index: 1; /* Garante que fiquem acima do plano de fundo */
+}
+
+.minifundo ul {
+    display: flex; /* Organiza as imagens em linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 100px; /* Adiciona espaço entre os itens */
+    list-style: none; /* Remove marcadores padrão da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin-top: 5rem; /* Adiciona espaço acima da lista */
+    margin-bottom: 0px;
+}
+.carousel-image {
+    height: 400px; /* Altura fixa */
+    object-fit: cover; 
+    width: 100%;
+    margin-top: 0;
+}
+.minifundo ul li img {
+    width: 200px; /* Define o tamanho das imagens */
+    height: 200px; /* Define o tamanho das imagens */
+    object-fit: contain; /* Ajusta a proporção sem distorcer */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona animações suaves */
+    cursor: pointer; /* Indica que as imagens são interativas */
+    padding: 2rem;
+    border-radius: 85px;
+}
+
+.minifundo ul li {
+    border: 7px solid white;
+    border-radius: 150px;
+    padding: 0.6rem;
+}
+/* Estilo para a sobreposição da imagem */
+.carousel-image-overlay {
+    position: relative;
+}
+.carousel-image {
+    height: 20vw;
+    object-fit: cover; /* Garante que a imagem cubra completamente o container sem distorcer */
+    filter: brightness(50%); /* Aplica uma sombra escura à imagem */
+}
+#container-slider {
+    box-sizing: border-box;
+    min-width: 100vw;
+    margin: 0 0;
+    padding: 0;
+    object-fit: cover;
+    
+}
+
+.carousel-image {
+    
+    height: 25vw; /* Altura proporcional à largura da tela */
+    object-fit: cover; /* Garante que a imagem cubra o contêiner sem distorcer */
+    filter: brightness(50%); /* Aplica uma sombra escura à imagem */
+    top: 50%;
+    left: 50%;
+   
+}
+
+/* Estilo do texto sobre a imagem */
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; /* Coloca o texto acima da imagem */
+    padding: 0 20px; /* Adiciona um pouco de espaçamento */
+}
+
+.carousel-text h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 1.2rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+.minifundo ul li img:hover {
+    transform: scale(1.1); /* Amplia levemente a imagem ao passar o mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao passar o mouse */
+}
+@media screen and (max-width: 1400px) {
+    #center {
+        margin: 0 100px;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .noticias-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .central-img,
+    .lateral-img {
+        width: 100%;
+    }
+}
