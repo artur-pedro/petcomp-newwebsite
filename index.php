@@ -37,7 +37,6 @@ function truncarTitulo($titulo, $limite = 30) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PETComp</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-    
     <link href="https://fonts.googleapis.com/css?family=Alatsi" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Mada' rel='stylesheet'>
     <!-- Bootstrap CSS -->
@@ -198,10 +197,13 @@ function truncarTitulo($titulo, $limite = 30) {
     </div>
 </div>
 
+<?php include 'footer.php'; ?>
 
 <!-- Referência ao arquivo JS externo -->
 <script src="js/js.js" defer></script>
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 </html>

@@ -1,0 +1,20 @@
+*{margin-top: 0;}
+.footer {
+    background-color: #001747; /* Cor azul de fundo */
+    height: 400px; /* Tamanho do footer (altura) */
+    color: white; /* Cor do texto dentro do footer */
+    display: flex; /* Usando flexbox para distribuir os elementos internos */
+    flex-direction: column;
+    justify-content: space-between; /* Separa os divs internos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 0 20px; /* Espaçamento interno nas laterais */
+}
+
+.footer-linha {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

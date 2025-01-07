@@ -396,7 +396,7 @@ body {
     flex-wrap: wrap;
     gap: 5rem;
     text-align: justify;
-    overflow: scroll;
+    overflow-y: scroll;
     padding: 3rem 1rem;
     align-items: center;
     justify-content: center;
@@ -411,7 +411,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    
 }
 .activities-subtitle {
     font-family: 'Alatsi';
