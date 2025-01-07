@@ -264,6 +264,7 @@ body {
     padding: 0; /* Remove o padding padrão */
     margin-top: 5rem; /* Adiciona espaço acima da lista */
     margin-bottom: 0px;
+    align-items: center;
 }
 .carousel-image {
     height: 400px; /* Altura fixa */
@@ -305,6 +306,9 @@ body {
     width: 98.9vw;
     height: 30vw;
     object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .swiper-slide {
@@ -394,6 +398,8 @@ body {
     text-align: justify;
     overflow: scroll;
     padding: 3rem 1rem;
+    align-items: center;
+    justify-content: center;
 }
 .activities-card {
     display: flex;
