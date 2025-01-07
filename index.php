@@ -36,11 +36,18 @@ function truncarTitulo($titulo, $limite = 30) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PETComp</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Alatsi" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Mada' rel='stylesheet'>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/index.css">
+    
 </head>
 <body>
 
@@ -116,37 +123,79 @@ function truncarTitulo($titulo, $limite = 30) {
             <li> <img src="img/lampada-de-ideia.png" alt="lampadadeideiaimg"></li>
         </ul>
     </div> 
-    <div class="container my-5" id="container-slider">
-        <div id="randomCarousel" class="carousel slide" data-bs-interval="5000" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#randomCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#randomCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#randomCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="swiper carousel">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <h2 class="text-carousel">PET Eventos</h2>
+                <h3 class="secundary-text">Veja um pouco dos eventos que o PET participou!</h3>
+                <img src="img/eventos.png" alt="eventos">
+                
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/eventos.png" class="d-block w-100 carousel-image" alt="Eventos">
-                    <div class="carousel-text">
-                        <h2>PET Eventos</h2>
-                        <p>Veja um pouco dos eventos que o PET participou!</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/monitoria.jpg" class="d-block w-100 carousel-image" alt="Monitoria">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/projetos.jpeg" class="d-block w-100 carousel-image" alt="Projetos">
-                </div>
+            <div class="swiper-slide"> 
+                    <img  src="img/projetos.jpeg" alt="">
+                    <h2 class="text-carousel">PET Projetos</h2>
+                    <h3 class="secundary-text">Veja um pouco dos projetos que o PET promoveu!</h3>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#randomCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#randomCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="swiper-slide"> 
+                    <img  src="img/monitoria.jpg" alt="">
+                    <h2 class="text-carousel">PET Monitorias</h2>
+                    <h3 class="secundary-text">Veja um pouco das monitorias ofertadas pelo PET!</h3>
+            </div>
         </div>
+        <button type="button" class="swiper-button-next"></button>
+        <button type="button" class="swiper-button-prev"></button>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="atividades">
+        <h2 class="activities-title">Atividades</h2>
+        <div class="activities-card">
+            <img class="activities-img" src="img/image4.png" alt="monitoria">
+            <h3 class="activities-subtitle">
+                Monitoria
+            </h3>
+            <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
+        </div>
+        <div class="activities-card">
+            <img class="activities-img" src="img/podcast.png" alt="podcast" id="podcast-card">
+            <h3 class="activities-subtitle" >
+                Podcast
+            </h3>
+            <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
+        </div>
+        <div class="activities-card">
+            <img class="activities-img" src="img/desenvolvimento-web 1.png" alt="podcast" style="margin-bottom: 0.6rem;">
+            <h3 class="activities-subtitle" style="font-size: 25px;">
+                Fábrica de Software
+            </h3>
+            <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
+        </div>
+        <div class="activities-card">
+            <img class="activities-img" src="img/conferencia.png" alt="conferencia" style="margin-bottom: 1.4rem;">
+            <h3 class="activities-subtitle" style="font-size: 25px;">
+                Eventos
+            </h3>
+            <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
+        </div>
+        <div class="activities-card">
+            <img class="activities-img" src="img/livro-de-capa-preta-fechado.png" alt="conferencia" style="margin-bottom: 1.4rem;">
+            <h3 class="activities-subtitle" style="font-size: 25px;">
+                Artigos
+            </h3>
+            <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
+        </div>
+        <div class="activities-card">
+            <img class="activities-img" src="img/curso-online.png" alt="miniscursos e oficinas" style="margin-bottom: 0.6rem;">
+            <h3 class="activities-subtitle" style="font-size: 25px;">
+                Minicursos e oficinas
+            </h3>
+            <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
+        </div>
+        <div class="text-card">
+        <h2 class="final-text">O PETComp desenvolve diversas atividades em pesquisa, ensino e extensão. Clique em um dos cards para obter mais informações!</h2>
+        </div>
+        
+    </div>
 </div>
 
 

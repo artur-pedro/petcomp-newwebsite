@@ -235,7 +235,9 @@ body {
     height: 75vh; /* Define a altura para 100% da altura da janela de visualização */
     padding: 0; /* Remove qualquer padding */
     margin: 0; /* Remove margens */
-    position: relative; /* Permite usar z-index para posicionamento */
+    position: relative;
+    overflow: hidden;
+    
 }
 
 .background-img {
@@ -284,64 +286,174 @@ body {
     border-radius: 150px;
     padding: 0.6rem;
 }
-/* Estilo para a sobreposição da imagem */
-.carousel-image-overlay {
-    position: relative;
-}
-.carousel-image {
-    height: 20vw;
-    object-fit: cover; /* Garante que a imagem cubra completamente o container sem distorcer */
-    filter: brightness(50%); /* Aplica uma sombra escura à imagem */
-}
-#container-slider {
-    box-sizing: border-box;
-    min-width: 100vw;
-    margin: 0 0;
+
+.swiper-slide {
+    margin: 0;
     padding: 0;
+    
+}
+
+.swiper-slide {
+    margin: 0 0px;
+    padding: 0;
+    width: 100%;
     object-fit: cover;
+    object-position: center;
     
 }
+.swiper {
+    width: 98.9vw;
+    height: 30vw;
+    object-fit: cover;
+  }
 
-.carousel-image {
-    
-    height: 25vw; /* Altura proporcional à largura da tela */
-    object-fit: cover; /* Garante que a imagem cubra o contêiner sem distorcer */
-    filter: brightness(50%); /* Aplica uma sombra escura à imagem */
-    top: 50%;
-    left: 50%;
-   
-}
+  .swiper-slide {
+    background-color: #000;
+    box-shadow: 8px 8px 15px rgba(41, 33, 33, 0.9);
+  }
 
-/* Estilo do texto sobre a imagem */
-.carousel-text {
+  .swiper-slide img {
+    display: block;
+    width: 99vw;
+    height: 30vw;
+    object-fit: cover;
+    filter: brightness(30%);
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+  }
+  .text-carousel {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    z-index: 1;
     color: white;
-    z-index: 1; /* Coloca o texto acima da imagem */
-    padding: 0 20px; /* Adiciona um pouco de espaçamento */
-}
+    font-size: 75px;
+    font-family: 'Mada';
+    left: 50%;
+    margin-left: -180px;
+    top: 100px;
+    
+  }
+  .secundary-text {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    left: 50%;
+    margin-left: -335px;
+    top: 260px;
+    
 
-.carousel-text h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
+  }
+  .swiper button {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    transition: opacity 0.25s;
+  }
 
-.carousel-text p {
-    font-size: 1.2rem;
-    max-width: 80%;
-    margin: 0 auto;
-}
+  .swiper button:hover {
+    opacity: 0.8;
+  }
 
+  .swiper button::before,
+  .swiper button::after {
+    font-size:24px;
+  }
 
+  .swiper-button-prev {
+    display: none;
+  }
 
+  .swiper-button-next {
+    display: none;
+  }
 
+  .swiper-pagination-bullet-active {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+  }
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+  }
 .minifundo ul li img:hover {
     transform: scale(1.1); /* Amplia levemente a imagem ao passar o mouse */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao passar o mouse */
+}
+.atividades {
+    background-color: #000227;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    text-align: justify;
+    overflow: scroll;
+    padding: 3rem 1rem;
+}
+.activities-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #001249;
+    width: 250px;
+    height: 250px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.activities-subtitle {
+    font-family: 'Alatsi';
+    color: #3AA3FC;
+    font-size: 40px;
+}
+.activities img {
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+.activities-title {
+    font-family: 'Alatsi';
+    font-size: 70px;
+    color: #fff;
+    margin: 3rem;
+}
+.saibamaisbtn {
+    height: 35px;
+    width: 120px;
+    border: 3px solid white;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    background-color: #001249;
+    color: #fff;
+    font-size: 14px;
+}
+#podcast-card {
+    margin-top: 1.4rem;
+}
+.final-text {
+    font-family: 'Alatsi';
+    font-size: 30px;
+    word-break:normal;
+    color: #fff;
+    display: inline;
+}
+.text-card {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    word-break: break-all;
+    
 }
 @media screen and (max-width: 1400px) {
     #center {

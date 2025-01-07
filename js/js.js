@@ -1,5 +1,18 @@
-let currentIndex = 0;
+var swiper = new Swiper('.carousel', {
+    autoHeight: true,
+    spaceBetween: 50,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      type: 'bullets',
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+  })
 
+let currentIndex = 0;
 // Função para mudar as notícias a cada 6 segundos
 function changeNews() {
     const noticias = document.querySelectorAll('.noticia');
