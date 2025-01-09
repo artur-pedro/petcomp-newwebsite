@@ -10,7 +10,7 @@
 <body>
     <footer class="footer">
         <div class="footer-linha">
-            akdjfçakldf
+            dandadan
         </div>
         <div>
 
@@ -20,5 +20,5 @@
         </div>
     </footer>
 </body>
-
+    
 </html>
