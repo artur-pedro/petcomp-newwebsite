@@ -1,5 +1,9 @@
-*{margin-top: 0;}
-.footer {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
     background-color: #001747; /* Cor azul de fundo */
     height: 400px; /* Tamanho do footer (altura) */
     color: white; /* Cor do texto dentro do footer */
@@ -7,14 +11,31 @@
     flex-direction: column;
     justify-content: space-between; /* Separa os divs internos */
     align-items: center; /* Alinha os itens verticalmente ao centro */
-    padding: 0 20px; /* Espaçamento interno nas laterais */
 }
 
-.footer-linha {
+.footer-header {
     height: 75px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    padding: 0rem 5rem;
+    gap: 2rem;
+
+    & .logos {
+        display: flex;
+        flex-direction: row;
+        gap: 0.7rem;
+    }
+    & img {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    & hr {
+        border: solid 1px black;    
+        width: 100%;
+        opacity: 1;
+    }
 }
+
 
