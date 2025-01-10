@@ -131,7 +131,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
-    background-color: rgba(1, 32, 76, 0.6);
+    background-color: rgba(0, 0, 0, 0.459);
     border-radius: 10px;
     max-width: 80%;
     text-align: center;
@@ -387,6 +387,8 @@ body {
     transform: scale(1.1); /* Amplia levemente a imagem ao passar o mouse */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao passar o mouse */
 }
+
+/* Area de atividades*/
 .atividades {
     background-color: #000227;
     width: 100vw;
@@ -394,7 +396,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 1.5rem;
     text-align: justify;
     overflow-y: scroll;
     padding: 3rem 1rem;
@@ -405,29 +407,30 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #001249;
-    width: 250px;
-    height: 250px;
+    width: 210px;
+    height: 210px;
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 9px;
 }
 .activities-subtitle {
     font-family: 'Alatsi';
     color: #3AA3FC;
-    font-size: 40px;
 }
 .activities img {
     align-items: center;
     width: 30px;
     height: 30px;
 }
+
 .activities-title {
     font-family: 'Alatsi';
-    font-size: 70px;
+    font-size: 87px;
     color: #fff;
     margin: 3rem;
 }
+
 .saibamaisbtn {
     height: 35px;
     width: 120px;
@@ -438,9 +441,7 @@ body {
     color: #fff;
     font-size: 14px;
 }
-#podcast-card {
-    margin-top: 1.4rem;
-}
+
 .final-text {
     font-family: 'Alatsi';
     font-size: 30px;
@@ -448,6 +449,7 @@ body {
     color: #fff;
     display: inline;
 }
+
 .text-card {
     display: flex;
     flex-direction: column;
