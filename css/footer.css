@@ -13,7 +13,7 @@ footer {
     align-items: center; /* Alinha os itens verticalmente ao centro */
 }
 
-.footer-header {
+.footer-top {
     height: 75px;
     width: 100%;
     display: flex;
@@ -22,20 +22,78 @@ footer {
     padding: 0rem 5rem;
     gap: 2rem;
 
-    & .logos {
+    & .footer-logos {
         display: flex;
         flex-direction: row;
         gap: 0.7rem;
     }
     & img {
-        height: 2.5rem;
         width: 2.5rem;
+        height: 2.5rem;
     }
     & hr {
-        border: solid 1px black;    
         width: 100%;
         opacity: 1;
+        border: 1px solid white;    
     }
 }
 
+.footer-mid {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 5rem;
+    gap: 5rem;
 
+    & .footer-elms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    & h2 {
+        font-size: 1,875rem;
+        font-family: 'Roboto';
+        font-weight: 600;
+    }
+    & ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    & li {
+        font-size: 1.2rem;
+    }
+    
+    & a {
+        color: #8F98AB;
+        text-decoration: none;
+    }
+
+}
+
+.footer-bottom {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 5rem;
+    gap: 2rem;
+
+    & hr {
+        width: 100%;
+        opacity: 1;
+        border: 2px solid white;
+    }
+    & .footer-logos {
+        display: flex;
+        flex-direction: row;
+        gap: 0.7rem;
+    }
+    & img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
