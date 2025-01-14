@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,14 +22,14 @@
 
     <div class="gallery">
         <div class="group">
-            <img src="/img/sobre-image1.png">
+            <img src="/img/sobre-image1.png" class="wide">
             <img src="/img/sobre-image3.png">
             <img src="/img/sobre-image5.png">
         </div>
         <div class="group">
-            <img src="/img/sobre-image2.png">
+            <img src="/img/sobre-image6.png" class="wide">
             <img src="/img/sobre-image4.png">
-            <img src="/img/sobre-image6.png">
+            <img src="/img/sobre-image2.png">
         </div>
     </div>
 
