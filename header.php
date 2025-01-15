@@ -26,7 +26,7 @@
                     <a href="#" class="dropbtn">Conheça o PETComp <span class="material-icons">arrow_drop_down</span></a>
                     <div class="dropdown-content">
                         <a href="#">Sobre nós</a>
-                        <a href="#">Integrantes</a>
+                        <a href="integrantes.php">Integrantes</a>
                     </div>
                 </div>
                 <div class="dropdown">
