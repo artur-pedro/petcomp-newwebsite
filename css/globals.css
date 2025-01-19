@@ -185,3 +185,26 @@ footer {
         color: #ddd;
     }
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+    .footer-mid {
+        & h2 {
+            font-size: 24px;
+        }
+
+        & li {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer-mid {
+        flex-direction: column;
+        align-items: flex-start;
+
+        & ul {
+            padding: 30px 40px;
+        }
+    }
+}
