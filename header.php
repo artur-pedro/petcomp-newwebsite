@@ -51,7 +51,7 @@
                         <a href="#">PodCast</a>
                     </div>
                 </div>
-                <a href="#">Eventos</a>
+                <a href="eventos.php">Eventos</a>
             </div>
         </nav>
     </header>

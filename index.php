@@ -181,7 +181,7 @@ function truncarTitulo($titulo, $limite = 30) {
             <h3 class="activities-subtitle" style="font-size: 25px;">
                 Eventos
             </h3>
-            <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
+            <a href="eventos.php"><button class="saibamaisbtn">Saiba mais</button></a>
         </div>
 
         <div class="activities-card">
