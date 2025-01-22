@@ -21,7 +21,7 @@
 <body>
   <?php include('header.php') ?>
   <main>
-    <div>
+    <div class="container">
       <div class="title-section">
         <h1>Fábrica de Software</h1>
         <h2>Engenharia de Software no PETComp</h2>
@@ -39,11 +39,25 @@
         <p>A atividade da continuidade às políticas já realizadas pelo PETComp. Os projetos serão adotados por toda a equipe, de forma que cada um se responsabiliza por algumas sub funcionalidades, usando de processos de desenvolvimento de software hábil a ser pesquisado pelos alunos, bem como metodologias para a gestão de atividades. O software que apresentar melhor desempenho no processo de ensino e aprendizagem será escolhido e produzido. Poderão ser produzidos durante o desenvolvimento da atividade: objetos de aprendizado, aplicações móveis para fins diversos, sistemas de informação, e sistemas computacionais para atender demandas, através das pesquisas realizadas em outras políticas desta proposta.</p>
       </div>
 
-      <!--
+      
       <div class="sites-cards">
+
+        <div class="software-card">
+          <img src="./assets/images/logos/CientAlcantara.svg" alt="">
+          <div class="text">
+            <h2><a target="_blank" href="http://observatoriodesaudemental.com.br/">Cientistas de Alcântara</a></h2>
+            <div class="wrapper-labels">
+              <div class="label php">PHP</div>
+              <div class="label html">HTML</div>
+              <div class="label css">CSS</div>
+              <div class="label javascript">JavaScript</div>
+            </div>
+          </div>
+        </div>
+
         <div class="software-card">
           <img src="./assets/images/logos/observatorio.svg" alt="">
-          <div class=" text">
+          <div class="text">
             <h2><a target="_blank" href="http://observatoriodesaudemental.com.br/">Observatório Saúde Mental</a></h2>
             <div class="wrapper-labels">
               <div class="label php">PHP</div>
@@ -113,9 +127,7 @@
             </div>
           </div>
         </div>
-
       </div>
-    -->
     </div>
   </main>
 

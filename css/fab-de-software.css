@@ -1,145 +1,309 @@
 
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
-    overflow: auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
 }
 
+
+
 .title-section {
-    font-family: 'Mada';
-    background-color: #001341;
-    color: #FFFFFF;
-    height: 100%;
-    width: 100%;
-    padding: 3rem 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  font-family: 'Mada';
+  background-color: #001341;
+  color: #FFFFFF;
+  height: 100%;
+  width: 100%;
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 
-    & h1 {
-        font-weight: 700;
-        font-size: 60px;
-    }
+  & h1 {
+    font-weight: 700;
+    font-size: 60px;
+  }
 
-    & h2 {
-        font-weight: 400;
-        font-size: 40px;
-    }
+  & h2 {
+    font-weight: 400;
+    font-size: 40px;
+  }
 }
 
 .acess-title {
-    font-family: 'Mada';
-    font-weight: 500;
-    display: flex;
-    gap: 15px;
-    height: 50%;
-    width: 100%;
-    font-size: 22px;
+  font-family: 'Mada';
+  font-weight: 500;
+  display: flex;
+  gap: 15px;
+  height: 50%;
+  width: 100%;
+  font-size: 22px;
 
-    & h4 {
-        font-weight: 400;
-    }
+  & h4 {
+    font-weight: 400;
+  }
 }
 
 .acess-link {
-    color: #4665DD;
-    text-decoration: none;
+  color: #4665DD;
+  text-decoration: none;
 }
 
 .text-fab-software {
-    padding: 3rem 5rem;
-    text-align: justify;
-    font-size: 24px;
-    font-family: 'Mada';
-    font-weight: 500;
+  padding: 3rem 5rem;
+  text-align: justify;
+  font-size: 24px;
+  font-family: 'Mada';
+  font-weight: 500;
 }
 
-/* Responsividade */
+main img {
+  margin: 20px auto;
+  transition: 0.2s;
+  width: 100%;
+}
+
+main .images-fab-software,
+main .images-revistas,
+main .images-minicursos {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: row;
+  margin-bottom: 40px;
+  padding: 0 3em;
+}
+
+main .images-fab-software .images-desenvolvimento {
+  width: 80%;
+}
+
+main .sites-cards {
+  display: grid;
+  grid-gap: 5em;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  padding: 0 3em;
+  width: 100%;
+}
+
+.software-card {
+  background: #fafafa;
+  border-radius: 0.4em;
+  margin: 0 auto !important;
+  width: 20em;
+}
+
+.software-card img {
+  border: none;
+  height: 10em;
+  width: 20em;
+}
+
+.software-card .text {
+  background: #060b3f;
+  border-radius: 0 0 0.4em 0.4em;
+  padding: 1em;
+}
+
+.software-card h2,
+.software-card a {
+  color: #fafafa;
+  margin-bottom: 0.4em;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.software-card .wrapper-labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.software-card .label {
+  color: #fff;
+  border-radius: 50px;
+  font-size: 18px;
+  margin-right: 0.4em;
+  padding: 0.1em 0.4em;
+  width: fit-content;
+}
+
+.react {
+  background: #61dafb;
+}
+
+.css {
+  background: #563d7c;
+}
+
+.php {
+  background: #4f5d95;
+}
+
+.html {
+  background: #e34c26;
+}
+
+.software-card .javascript {
+  background: #f1e05a;
+  color: #000;
+}
+
+@media (max-width: 1360px) {
+
+  header .nav-links{ /* Provisorio, enquanto o header nao fica pronto */
+    display: none;
+  }
+
+  main .sites-cards {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    padding: 0 2em;
+  }
+
+  .software-card {
+    width: 100%;
+  }
+
+  .software-card img {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
 @media (max-width: 1024px) {
-    /* Ajustes para tablets e laptops pequenos */
-    .title-section {
-        padding: 2rem 3rem;
-    }
+  
+  header .nav-links{ /* Provisorio, enquanto o header nao fica pronto */
+    display: none;
+  }
 
-    .title-section h1 {
-        font-size: 50px;
-    }
+  .title-section {
+    padding: 2rem 3rem;
+  }
 
-    .title-section h2 {
-        font-size: 35px;
-    }
+  .title-section h1 {
+    font-size: 50px;
+  }
 
-    .text-fab-software {
-        padding: 2rem 3rem;
-        font-size: 22px;
-    }
+  .title-section h2 {
+    font-size: 30px;
+  }
 
-    .acess-title {
-        font-size: 20px;
-        gap: 10px;
-    }
+  .text-fab-software {
+    padding: 2rem 3rem;
+    font-size: 20px;
+  }
+
+  main .sites-cards {
+    grid-template-columns: 1fr;
+    grid-gap: 3em;
+    padding: 0 2em;
+  }
+
+  .software-card {
+    width: 100%;
+  }
+
+  .software-card img {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
+/* Telas menores que 768px (Tablets em modo retrato e celulares grandes) */
 @media (max-width: 768px) {
-    /* Ajustes para tablets menores e smartphones grandes */
-    .title-section {
-        padding: 1.5rem 2rem;
-    }
 
-    .title-section h1 {
-        font-size: 40px;
-    }
+  header .nav-links{ /* Provisorio, enquanto o header nao fica pronto */
+    display: none;
+  }
 
-    .title-section h2 {
-        font-size: 30px;
-    }
+  .title-section {
+    padding: 1.5rem 2rem;
+  }
 
-    .text-fab-software {
-        padding: 1.5rem 2rem;
-        font-size: 20px;
-    }
+  .title-section h1 {
+    font-size: 40px;
+  }
 
-    .acess-title {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-        font-size: 18px;
-    }
+  .title-section h2 {
+    font-size: 25px;
+  }
+
+  .text-fab-software {
+    padding: 1.5rem 2rem;
+    font-size: 18px;
+  }
+
+  .acess-title {
+    font-size: 18px;
+    flex-wrap: wrap;
+  }
+
+  main .sites-cards {
+    grid-gap: 2em;
+    padding: 0 1.5em;
+  }
+
+  .software-card img {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
+/* Telas menores que 480px (Celulares pequenos) */
 @media (max-width: 480px) {
-    /* Ajustes para smartphones pequenos */
-    .title-section {
-        padding: 1rem;
-        gap: 10px;
-    }
 
-    .title-section h1 {
-        font-size: 30px;
-    }
+  header .nav-links{ /* Provisorio, enquanto o header nao fica pronto */
+    display: none;
+  }
 
-    .title-section h2 {
-        font-size: 20px;
-    }
 
-    .text-fab-software {
-        padding: 1rem;
-        font-size: 18px;
-    }
+  .title-section {
+    padding: 1rem;
+  }
 
-    .acess-title {
-        font-size: 16px;
-    }
+  .title-section h1 {
+    font-size: 30px;
+  }
 
-    .acess-link {
-        font-size: 14px;
-    }
+  .title-section h2 {
+    font-size: 20px;
+  }
+
+  .text-fab-software {
+    padding: 1rem;
+    font-size: 16px;
+  }
+
+  main .sites-cards {
+    grid-gap: 1em;
+    padding: 0 1em;
+  }
+
+  .software-card {
+    width: 100%;
+  }
+
+  .software-card img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .software-card h2, .software-card a {
+    font-size: 16px;
+  }
+
+  .software-card .label {
+    font-size: 14px;
+  }
 }
+
+
