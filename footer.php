@@ -21,70 +21,70 @@
 
         <div class="footer-mid">
             <div class="footer-elms">
-                <h2>
+                <h2 class="title">
                     PETComp
                 </h2>
-                <ul>
-                    <li>
-                        <a href="">Sobre nós</a>
+                <ul class="ulist">
+                    <li class="litem">
+                        <a class="item-button" href="">Sobre nós</a>
                     </li>
-                    <li>
-                        <a href="">Integrantes</a>
+                    <li class="litem">
+                        <a class="item-button" href="">Integrantes</a>
                     </li>
                 </ul>
             </div>
             <div class="footer-elms">
-                <h2>
+                <h2 class="title">
                     Projetos
                 </h2>
-                <ul>
-                    <li>
-                        <a href="">Monitoria</a>
+                <ul class="ulist">
+                    <li class="litem">
+                        <a class="item-button" href="">Monitoria</a>
                     </li>
-                    <li>
-                        <a href="">Fáb. Software</a>
+                    <li class="litem">
+                        <a class="item-button" href="">Fáb. Software</a>
                     </li>
-                    <li>
-                        <a href="">Minicursos e Oficinas</a>
+                    <li class="litem">
+                        <a class="item-button" href="">Minicursos e Oficinas</a>
                     </li>
                 </ul>
             </div>
             <div class="footer-elms">
-                <h2>
+                <h2 class="title">
                     Publicações
                 </h2>
-                <ul>
-                    <li>
-                        <a href="">Trabalhos Publicados</a>
+                <ul class="ulist">
+                    <li class="litem">
+                        <a class="item-button" href="">Trabalhos Publicados</a>
                     </li>
-                    <li>
-                        <a href="">Revista PETComp</a>
+                    <li class="litem">
+                        <a class="item-button" href="">Revista PETComp</a>
                     </li>
                 </ul>
             </div>
             <div class="footer-elms">
-                <h2>
+                <h2 class="title">
                     Produtos
                 </h2>
-                <ul>
-                    <li>
-                        <a href="">Biblioteca PETComp</a>
+                <ul class="ulist">
+                    <li class="litem">
+                        <a class="item-button" href="">Biblioteca PETComp</a>
                     </li>
-                    <li>
-                        <a href="">PODCast</a>
+                    <li class="litem">
+                        <a class="item-button" href="">PODCast</a>
                     </li>
                 </ul>
             </div>
             <div class="footer-elms">
-                <h2>
+                <h2 class="title">
                     Links
                 </h2>
-                <ul>
-                    <li>
-                        <a href="">Departamento de computação</a>
+                <ul class="ulist">
+                    <li class="litem">
+                        <a class="item-button" href="">Departamento de computação</a>
                     </li>
-                    <li>
-                        <a href="">UFMA</a>
+                    <li class="litem">
+                        <a class="item-button" href="">UFMA</a>
                     </li>
                 </ul>
             </div>
