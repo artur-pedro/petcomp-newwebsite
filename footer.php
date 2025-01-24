@@ -96,10 +96,10 @@
                 <a href="https://www.instagram.com/petcompufma/">
                     <img src="img/logo-instagram.png" alt="logo-instagram">
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/petcompufma">
                     <img src="img/logo-facebook.png" alt="logo-facebook">
                 </a>
-                <a href="#">
+                <a href="https://x.com/petcompufma">
                     <img src="img/logo-twitter.png" alt="logo-twitter">
                 </a>
             </div>
