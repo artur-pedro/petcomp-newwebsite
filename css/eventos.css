@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: justify;
+    padding: 50px;
+}
+
+.caminho{
+    display: flex;
+    font-weight: 400;
+    gap: 5px;
+    font-size: 20px;
+
+    & h4{
+        font-weight: 400;
+    }
+    & a{
+        color: rgb(70, 101, 221);
+        text-decoration: none;
+    }
+    
+    & a:hover{
+        color: rgb(74, 167, 224);
+    }
+}
+
+.caixa-principal{
+    background-color: rgb(0, 19, 65);
+    color: white;
+    font-family: 'Mada';
+    padding: 3rem 5rem;
+    & h1{
+        font-weight: 700;
+        font-size: 55px;
+    }
+    & h2{
+        font-weight: 400;
+        font-size: 38px;
+        margin-bottom: 5px;
+    }
+}
+
+.textos{
+    font-family: 'Mada';
+    font-weight: 500;
+    gap: 5px;
+    height: 50%;
+    width: 100%;
+    padding: 3rem 5rem;
+    font-size: 22px;
+    & h4{
+        font-weight: 400;
+    }
+}
+
+.box-models{
+    background-color: rgb(6, 11, 63);
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem;
+    & h1{
+        font-size: 26px;
+        margin-bottom: 4px;
+    }
+
+    & h4{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
