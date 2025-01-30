@@ -74,6 +74,77 @@
                 </div>
             </div>
 
+            <div class= "box-models">
+                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <div class = "texts-content">
+                    <h1>EEA</h1>
+                    <h4>
+                        As competências digitais tornaram-se essenciais para o processo de ensino e aprendizagem, envolvendo a utilização 
+                        segura e crítica das TDIC (Tecnologias Digitais de Informação e Comunicação) e da Internet para pesquisar, encontrar, 
+                        avaliar, processar, armazenar, utilizar, produzir, apresentar e trocar informações, inclusive em rede. Nesse contexto, 
+                        o I Encontro sobre Experiências Acadêmicas da UFMA (I EEA da UFMA) é um evento com o objetivo de permitir que toda a 
+                        comunidade da Universidade Federal do Maranhão (UFMA) e demais Instituições de Ensino Superior públicas do Maranhão 
+                        possam trocar experiências, aprender e divulgar ações bem-sucedidas no contexto do desenvolvimento e disponibilização 
+                        de produções técnicas inovadoras.
+                    </h4>
+                </div>
+            </div>
+
+            <div class= "box-models">
+                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <div class = "texts-content">
+                    <h1>ENEPET</h1>
+                    <h4>
+                        O Encontro Nordestino dos Grupos do Programa de Educação Tutorial (ENEPET) é um evento em que a comunidade petiana da 
+                        região Nordeste se encontra para discutir questões relacionadas ao Programa de Educação Tutorial (PET) na região. O 
+                        encontro é caracterizado por assembleias, grupos de discussão e trabalhos, apresentação de trabalhos acadêmicos, 
+                        atividades culturais, além da troca de experiências entre discentes e tutores nordestinos.
+                    </h4>
+                </div>
+            </div>
+
+            <div class= "box-models">
+                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <div class = "texts-content">
+                    <h1>ERCEMAPI</h1>
+                    <h4>
+                        A primeira edição da Escola Regional de Computação dos Estados do Ceará, Maranhão e Piauí (ERCEMAPI) ocorreu em 2007 e 
+                        foi sediada em Fortaleza, CE. O evento busca promover a integração entre os três estados e tem como objetivo disseminar 
+                        o conhecimento técnico e científico sobre temas e assuntos de vanguarda na área de Computação. As Escolas Regionais são 
+                        eventos promovidos pela Sociedade Brasileira de Computação (SBC). A ERCEMAPI visa se consolidar como um evento de 
+                        referência nos Estados do Maranhão, Ceará e Piauí e região. Além disso, o evento colabora e contribui com a consolidação
+                        dos Programas de Pós-Graduação da região.
+                    </h4>
+                </div>
+            </div>
+
+            <div class= "box-models">
+                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <div class = "texts-content">
+                    <h1>JIM</h1>
+                    <h4>
+                        A Jornada Informática do Maranhão (JIM) é um evento de caráter acadêmico e técnico-científico com o objetivo de 
+                        propiciar um espaço de intercâmbio entre os diversos atores dos setores de Informática da região, apresentando e 
+                        discutindo temas que abordam a aplicação da Computação para a solução de problemas do Estado do Maranhão, bem como as 
+                        pesquisas em Informática realizadas nas instituições do estado, disponibilizando aos participantes a possibilidade de 
+                        acesso a temas e discussões recentes na área, através de diversas atividades, como palestras, minicursos, painéis de 
+                        discussão e apresentação de trabalhos científicos.
+                    </h4>
+                </div>
+            </div>
+
+            <div class= "box-models">
+                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <div class = "texts-content">
+                    <h1>ENAPET</h1>
+                    <h4>
+                        Todos os anos, o Encontro Nacional do Programa de Educação Tutorial (ENAPET) reúne discentes, docentes e interlocutores 
+                        vinculados ao programa com o objetivo de discutir, coletivamente, temas e questões relevantes para a manutenção e o 
+                        desenvolvimento do PET nacionalmente.
+                    </h4>
+                </div>
+            </div>
+
         </div>
     </main>
 </body>
