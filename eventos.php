@@ -59,11 +59,12 @@
                         de Computação, e procura guiar os calouros através da universidade e do curso, além de mostrar as
                         oportunidades que a universidade oferece tanto de forma pessoal como profissional.
                     </h4>
+                    <button>Saiba mais</button>
                 </div>
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-eacomp.png" alt="Ícone Acalourada">
                 <div class = "texts-content">
                     <h1>EAComp</h1>
                     <h4>
@@ -71,11 +72,12 @@
                         com o curso de Graduação de Ciência da Computação da UFMA apresentando as oportunidades dentro da graduação. 
                         O EAComp é organizado pelo Programa de Educação Tutorial do curso de Ciência da Computação (PETComp).
                     </h4>
+                    <button>Saiba mais</button>
                 </div>
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-eea.svg" alt="Ícone Acalourada">
                 <div class = "texts-content">
                     <h1>EEA</h1>
                     <h4>
@@ -87,11 +89,12 @@
                         possam trocar experiências, aprender e divulgar ações bem-sucedidas no contexto do desenvolvimento e disponibilização 
                         de produções técnicas inovadoras.
                     </h4>
+                    <button>Saiba mais</button>
                 </div>
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-enepet.png" alt="Ícone Acalourada">
                 <div class = "texts-content">
                     <h1>ENEPET</h1>
                     <h4>
@@ -100,11 +103,12 @@
                         encontro é caracterizado por assembleias, grupos de discussão e trabalhos, apresentação de trabalhos acadêmicos, 
                         atividades culturais, além da troca de experiências entre discentes e tutores nordestinos.
                     </h4>
+                    <button>Saiba mais</button>
                 </div>
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-ercemapi.svg" alt="Ícone Acalourada">
                 <div class = "texts-content">
                     <h1>ERCEMAPI</h1>
                     <h4>
@@ -115,13 +119,14 @@
                         referência nos Estados do Maranhão, Ceará e Piauí e região. Além disso, o evento colabora e contribui com a consolidação
                         dos Programas de Pós-Graduação da região.
                     </h4>
+                    <button>Saiba mais</button>
                 </div>
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-ejim.svg" alt="Ícone Acalourada">
                 <div class = "texts-content">
-                    <h1>JIM</h1>
+                    <h1>EJIM</h1>
                     <h4>
                         A Jornada Informática do Maranhão (JIM) é um evento de caráter acadêmico e técnico-científico com o objetivo de 
                         propiciar um espaço de intercâmbio entre os diversos atores dos setores de Informática da região, apresentando e 
@@ -130,11 +135,12 @@
                         acesso a temas e discussões recentes na área, através de diversas atividades, como palestras, minicursos, painéis de 
                         discussão e apresentação de trabalhos científicos.
                     </h4>
+                    <button>Saiba mais</button>
                 </div>
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-enapet.jpg" alt="Ícone Acalourada">
                 <div class = "texts-content">
                     <h1>ENAPET</h1>
                     <h4>
@@ -142,10 +148,12 @@
                         vinculados ao programa com o objetivo de discutir, coletivamente, temas e questões relevantes para a manutenção e o 
                         desenvolvimento do PET nacionalmente.
                     </h4>
+                    <button>Saiba mais</button>
                 </div>
             </div>
-
         </div>
+
+        <?php include('footer.php') ?>
     </main>
 </body>
 </html>

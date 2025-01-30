@@ -62,6 +62,7 @@ body {
     padding: 0 3em;
     display: flex;
     gap: 40px;
+    margin-bottom: 40px;
 }
 
 .box-models{
@@ -69,7 +70,7 @@ body {
     width: 73%;
     height: auto;
     margin: auto;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.329);
+    box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.322);
     display: flex;
     align-items: center;
     border-radius: 18px;
@@ -85,14 +86,40 @@ body {
     background-color: rgb(6,11,63);
     border-radius: 0 18px 18px 0;
     color: white;
-    padding: 2em;
+    padding: 1.5em 2em;
+    font-family: 'Mada';
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
     & h1{
         font-size: 24px;
-        margin-bottom: 9px;
     }
     & h4{
         font-size: 16px;
         font-weight: 400;
+    }
+    & p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    & button{
+        font-family: 'Mada';
+        display: block;
+        margin-left: auto;
+        width: 116px;
+        height: 35px;
+        background-color: rgb(6,11,63);
+        font-size: 15px;
+        font-weight: 550;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    & button:hover{
+        background-color: white;
+        border: 2px solid white;
+        color:rgb(6,11,63) ;
     }
 }
 
