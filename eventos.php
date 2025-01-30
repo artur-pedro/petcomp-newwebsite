@@ -46,16 +46,35 @@
             </h4>
         </div>
 
-        <div class= "box-models">
-            <h1>Acalourada</h1>
-            <h4>A Acalourada Virtual é uma atividade de recepção dos estudantes ingressantes no curso de Ciência da 
-                Computação de forma totalmente virtual. Essa atividade já vem sendo desenvolvida de forma presencial 
-                há mais de 3 anos em conjunto com a Coordenação de Computação, o Departamento de Informática e o PET 
-                de Computação, e procura guiar os calouros através da universidade e do curso, além de mostrar as 
-                oportunidades que a universidade oferece tanto de forma pessoal como profissional.
-            </h4>
-        </div>
+        <div class = "noticias">
 
+            <div class= "box-models">
+                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <div class = "texts-content">
+                    <h1>Acalourada</h1>
+                    <h4>
+                        A Acalourada Virtual é uma atividade de recepção dos estudantes ingressantes no curso de Ciência da
+                        Computação de forma totalmente virtual. Essa atividade já vem sendo desenvolvida de forma presencial
+                        há mais de 3 anos em conjunto com a Coordenação de Computação, o Departamento de Informática e o PET
+                        de Computação, e procura guiar os calouros através da universidade e do curso, além de mostrar as
+                        oportunidades que a universidade oferece tanto de forma pessoal como profissional.
+                    </h4>
+                </div>
+            </div>
+
+            <div class= "box-models">
+                <img src="assets\images\pag-eventos\box-acalourada.png" alt="Ícone Acalourada">
+                <div class = "texts-content">
+                    <h1>EAComp</h1>
+                    <h4>
+                        O Encontro Acadêmico de Computação (EAComp) da UFMA é uma forma de receber novos alunos e familiarizá-los 
+                        com o curso de Graduação de Ciência da Computação da UFMA apresentando as oportunidades dentro da graduação. 
+                        O EAComp é organizado pelo Programa de Educação Tutorial do curso de Ciência da Computação (PETComp).
+                    </h4>
+                </div>
+            </div>
+
+        </div>
     </main>
 </body>
 </html>
