@@ -124,7 +124,6 @@ header {
 
 /* Footer */
 footer {
-    height: 400px;
     background-color: #001747; /* Cor azul de fundo */
     color: white; /* Cor do texto dentro do footer */
     display: flex; /* Usando flexbox para distribuir os elementos internos */
@@ -134,7 +133,7 @@ footer {
 }
 
 .footer-top {
-    height: 20%;
+    height: 4rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -194,7 +193,7 @@ footer {
 }
 
 .footer-bottom {
-    height: 20%;
+    height: 4rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -234,7 +233,7 @@ footer {
     .footer-mid {
         flex-direction: column;
         align-items: flex-start;
-
+        justify-content: center;
         & ul {
             padding: 30px 40px;
         }
