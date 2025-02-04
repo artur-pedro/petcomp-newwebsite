@@ -44,9 +44,11 @@ function truncarTitulo($titulo, $limite = 30) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
     <link rel="stylesheet" href="./css/index.css">
     
+    <link rel="stylesheet" href="css/globals.css">
 </head>
 <body>
 
