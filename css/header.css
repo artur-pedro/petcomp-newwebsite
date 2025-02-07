@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Sora';font-size: 24px;
+    font-family: 'Sora';font-size: 20px;
     font-weight: 600;
 }
 header {
@@ -15,7 +15,7 @@ header {
     color: #33aaff;
 }
 #logo img {
-    height: 35px;
+    height: 40px;
     margin-left: 0px;
 }
 .navbar {
@@ -89,4 +89,5 @@ header {
 #logo:hover {
     cursor: pointer;
 }
+
 
