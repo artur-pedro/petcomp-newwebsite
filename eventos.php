@@ -18,10 +18,10 @@
 <body>
     <?php include('header.php') ?>
     <main>
-        <div class= "caixa-principal">
+        <div class= "main-box">
             <h1>Eventos</h1>
             <h2>Confira os eventos que nós promovemos!</h2>
-            <div class = "caminho">
+            <div class = "path-text">
                 <a href="#" class="acess-link"> Pagina Inicial -> </a>
                 <h4> Eventos </h4>
             </div>
@@ -64,7 +64,7 @@
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-eacomp.png" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-eacomp.png" alt="Ícone EACOMP">
                 <div class = "texts-content">
                     <h1>EAComp</h1>
                     <h4>
@@ -77,7 +77,7 @@
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-eea.svg" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-eea.svg" alt="Ícone EEA">
                 <div class = "texts-content">
                     <h1>EEA</h1>
                     <h4>
@@ -94,7 +94,7 @@
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-enepet.png" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-enepet.png" alt="Ícone ENEPET">
                 <div class = "texts-content">
                     <h1>ENEPET</h1>
                     <h4>
@@ -108,7 +108,7 @@
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-ercemapi.svg" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-ercemapi.svg" alt="Ícone ERCEMAPI">
                 <div class = "texts-content">
                     <h1>ERCEMAPI</h1>
                     <h4>
@@ -124,7 +124,7 @@
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-ejim.svg" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-ejim.svg" alt="Ícone EJIM">
                 <div class = "texts-content">
                     <h1>EJIM</h1>
                     <h4>
@@ -140,7 +140,7 @@
             </div>
 
             <div class= "box-models">
-                <img src="assets\images\pag-eventos\box-enapet.jpg" alt="Ícone Acalourada">
+                <img src="assets\images\pag-eventos\box-enapet.jpg" alt="Ícone ENAPET">
                 <div class = "texts-content">
                     <h1>ENAPET</h1>
                     <h4>
