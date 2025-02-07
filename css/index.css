@@ -35,7 +35,7 @@ body {
 }
 
 .noticias-container img {
-    box-shadow: 0 6px 10px rgba(1, 32, 76, 0.6);; /* Sombra sutil */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Sombra sutil */
     height: auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -131,7 +131,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(1, 32, 76, 0.6);
     border-radius: 10px;
     max-width: 80%;
     text-align: center;
