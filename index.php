@@ -153,7 +153,7 @@ function truncarTitulo($titulo, $limite = 30) {
         <h2 class="activities-title">Atividades</h2>
 
         <div class="activities-card">
-            <img class="activities-img" src="img/monitorialogo.png" alt="monitoria" style="margin-bottom: -1rem;">
+            <img class="activities-img" src="img/image4.png" alt="monitoria" style="margin-bottom: -1rem;">
             <h3 class="activities-subtitle">
                 Monitoria
             </h3>

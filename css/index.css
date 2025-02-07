@@ -396,7 +396,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 5;
+    gap: 5rem;
     text-align: justify;
     overflow-y: scroll;
     padding: 3rem 1rem;

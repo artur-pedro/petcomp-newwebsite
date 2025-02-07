@@ -13,7 +13,9 @@
 
 
 <body>
+
     <header>
+
         <nav class="navbar">
             <div id="logo">
                 <img src="img/logo.png" alt="Logo PETComp">
@@ -51,7 +53,7 @@
                         <a href="#">PodCast</a>
                     </div>
                 </div>
-                <a href="eventos.php">Eventos</a>
+                <a href="#">Eventos</a>
             </div>
         </nav>
     </header>
