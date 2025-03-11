@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main-title {
+    font-family: 'Mada';
+    display: flex;
+    flex-direction: column;
+    background: #001341;
+    color: aliceblue;
+    position:relative;
+    width: 100%;
+    margin-top: 0;
+    padding: 0,5rem 0;
+    top: 0; 
+
+    & h1{
+    padding: 1.8rem 0 0.8rem 0;
+    font-size: 3.7rem;
+    margin-left: 5rem;
+    font-weight: bold;
+    }
+    
+    & h2{
+        padding-bottom: 0.8rem;
+        font-size: 2.5rem;
+        margin-left: 5rem;
+        font-weight: normal;
+    }
+}
+
+
+.pages-acessed{
+    display: flex;
+    font-family: 'Mada';
+    gap: 29px;
+    padding-bottom: 49px;
+    font-size: 22px;
+    margin-left: 5rem;
+    font-weight: normal;
+}
+
+.link-acessed{
+    text-decoration: none;
+    color: #4665DD;
+}
+.paragraph {
+    font-family: 'Mada';
+    margin-top: 2.5rem; 
+    margin-bottom: 30px; 
+    line-height: 1.6;
+    font-size: 1.5rem; 
+    font-weight: 500;
+    text-align: justify;
+    padding-left: 5rem; 
+    padding-right: 5rem;
+}
+
+.monitoring-image {
+    overflow: hidden; 
+    display: flex;
+    padding: 1.5rem 5rem 0 5rem;
+    justify-content: space-between;
+}
+
+.image-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem; 
+    width: 48rem;
+    height: auto;
+}
+
+.image-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+    width: 32rem;
+    height: auto;
+}
+
+
+@media screen and (max-width:426px){
+    header .nav-links{ /* Provisorio, enquanto o header nao fica pronto */
+        display: none;
+    }
+    
+    .main-title {
+        font-family: 'Mada';
+        display: flex;
+        flex-direction: column;
+        background: #001341;
+        color: aliceblue;
+        position:relative;
+        width: 100%;
+        
+        & h1{
+        font-size: 20px;
+        margin-left: 31px;
+        font-weight: bold;
+        padding-top: 9px;;
+        padding-bottom: 9px;
+        }
+        
+        & h2{
+            padding-bottom: 9px;
+            font-size: 10px;
+            margin-left: 31px;
+            font-weight: normal;
+        }
+    .pages-acessed{
+        display: flex;
+        font-family: 'Mada';
+        gap: 3px;
+        padding-bottom: 3px;
+        font-size: 5px;
+        margin-left: 31px;
+        font-weight: normal;
+    }
+    }
+    .paragraph {
+        font-family: 'Mada';
+        margin-top: 1rem; 
+        font-size: 0.5rem; 
+        font-weight: normal;
+        text-align: justify;
+        padding-left: 2rem; 
+        padding-right: 2rem;
+    }
+    .monitoring-image {
+        overflow: hidden; 
+        display: flex;
+        flex-direction: column; 
+        padding: 1.5rem 2rem 0 2rem;
+    }
+    .image-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem; 
+        width: 100%;
+        height: auto;
+    }
+    
+    .image-right {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1.8rem; 
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width:426px) and (max-width: 768px){
+    header .nav-links{
+        display: none;  /* Provisorio, enquanto o header nao fica pronto */
+    }
+    .main-title {
+        font-family: 'Mada';
+        display: flex;
+        flex-direction: column;
+        background: #001341;
+        color: aliceblue;
+        position:relative;
+        width: 100%;
+        
+        & h1{
+        font-size: 5rem;
+        margin-left: 5rem;
+        font-weight: bold;
+        padding-top: 0.5rem;;
+        padding-bottom: 0.5rem;
+        }
+        
+        & h2{
+            padding-bottom: 0.5rem;
+            font-size: 1.5rem;
+            margin-left: 5rem;
+            font-weight: normal;
+        }
+    .pages-acessed{
+        display: flex;
+        font-family: 'Mada';
+        gap: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 1rem;
+        margin-left: 5rem;
+        font-weight: normal;
+    }
+    }
+    .monitoring-image {
+        overflow: hidden; 
+        display: flex;
+        flex-direction: column; 
+        padding: 1.5rem 5rem 0 5rem;
+    }
+    .image-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1.8rem; 
+        width: 100%;
+        height: auto;
+    }
+    
+    .image-right {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1.8rem; 
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+
+
+
+
