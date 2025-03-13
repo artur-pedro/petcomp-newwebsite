@@ -14,6 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Mada:wght@400;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="css/globals.css">
+
   <link rel="stylesheet" href="css/eventos.css">
 
 </head>
@@ -156,5 +158,7 @@
             </div>
         </div>
     </main>
+    <?php include('footer.php') ?>
+    <script src="./js/js.js"></script>
 </body>
 </html>
