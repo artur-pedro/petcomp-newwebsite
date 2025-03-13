@@ -31,7 +31,7 @@
         </div>
 
         <div class = "textos">
-            <h4 id = "t">Os eventos serão planejados através de reuniões entre o grupo. Na primeira reunião, um petiano é 
+            <h4>Os eventos serão planejados através de reuniões entre o grupo. Na primeira reunião, um petiano é 
                 eleito líder do monitoramento das atividades a serem realizadas para que ocorra o evento. Este líder
                 , em conjunto com o tutor, indica membros para auxiliá-lo diretamente, podendo inclusive, ser todos 
                 os membros do PET. O tutor atua como facilitador entre as várias entidades e atores da universidade.
