@@ -185,7 +185,7 @@ function truncarTitulo($titulo, $limite = 30) {
         </div>
 
         <div class="activities-card">
-            <img class="activities-img" src="img/artigos.png" alt="conferencia" style="margin-bottom: -1rem;">
+            <img class="activities-img" src="img/livro-de-capa-preta-fechado.png" alt="conferencia" style="margin-bottom: 1.4rem;">
             <h3 class="activities-subtitle" style="font-size: 25px;">
                 Artigos
             </h3>
@@ -193,8 +193,8 @@ function truncarTitulo($titulo, $limite = 30) {
         </div>
 
         <div class="activities-card">
-            <img class="activities-img" src="img/minicursos.png" alt="miniscursos e oficinas" style="margin-bottom: -0.8rem;">
-            <h3 class="activities-subtitle" style="font-size: 20px;">
+            <img class="activities-img" src="img/curso-online.png" alt="miniscursos e oficinas" style="margin-bottom: -0.8rem;">
+            <h3 class="activities-subtitle" style="font-size: 25px;">
                 Minicursos e oficinas
             </h3>
             <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
