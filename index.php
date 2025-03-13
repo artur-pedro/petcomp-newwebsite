@@ -153,7 +153,7 @@ function truncarTitulo($titulo, $limite = 30) {
         <h2 class="activities-title">Atividades</h2>
 
         <div class="activities-card">
-            <img class="activities-img" src="img/image4.png" alt="monitoria" style="margin-bottom: -1rem;">
+            <img class="activities-img" src="img/image4.png" alt="monitoria">
             <h3 class="activities-subtitle">
                 Monitoria
             </h3>
@@ -161,7 +161,7 @@ function truncarTitulo($titulo, $limite = 30) {
         </div>
 
         <div class="activities-card">
-            <img class="activities-img" src="img/podcast.png" alt="podcast" style="margin-bottom: -1rem;">
+            <img class="activities-img" src="img/podcast.png" alt="podcast" id="podcast-card">
             <h3 class="activities-subtitle" >
                 Podcast
             </h3>
@@ -169,15 +169,15 @@ function truncarTitulo($titulo, $limite = 30) {
         </div>
 
         <div class="activities-card">
-            <img class="activities-img" src="img/desenv.png" alt="podcast" style="margin-bottom: -0.5rem;">
-            <h3 class="activities-subtitle" style="font-size: 20px;">
+            <img class="activities-img" src="img/desenvolvimento-web 1.png" alt="podcast" style="margin-bottom: 0.6rem;">
+            <h3 class="activities-subtitle" style="font-size: 25px;">
                 Fábrica de Software
             </h3>
             <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
         </div>
 
         <div class="activities-card">
-            <img class="activities-img" src="img/conferencias.png" alt="conferencia" style="margin-bottom: -1rem;">
+            <img class="activities-img" src="img/conferencia.png" alt="conferencia" style="margin-bottom: 1.4rem;">
             <h3 class="activities-subtitle" style="font-size: 25px;">
                 Eventos
             </h3>
