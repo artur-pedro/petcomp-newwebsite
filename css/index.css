@@ -194,6 +194,11 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
+    
+    & img {
+        width: 85%;
+        height: auto;
+    }
 }
 
 .noticia {
