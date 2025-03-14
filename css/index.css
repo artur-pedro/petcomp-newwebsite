@@ -20,6 +20,14 @@ body {
     width: 100%;
 }
 
+/* Classe da imagem do texto PETComp abaixo do header */
+.text-container {
+    & img {
+        width: 45%;
+        height: auto;
+    }
+}
+
 .petianos-container {
     display: flex;
     justify-content: right;

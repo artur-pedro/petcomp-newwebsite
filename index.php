@@ -50,6 +50,7 @@ function truncarTitulo($titulo, $limite = 30) {
     
     <link rel="stylesheet" href="css/globals.css">
 </head>
+
 <body>
 
 <script>
