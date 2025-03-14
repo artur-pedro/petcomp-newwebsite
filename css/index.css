@@ -124,7 +124,11 @@ body {
     margin-bottom: 2rem;
 }
 .ultimasnoticiastext h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .img-fluid {
