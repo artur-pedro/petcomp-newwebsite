@@ -3,13 +3,26 @@
 
 
 <head>
+    <!-- Metadados essenciais -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitoria</title>
+
+    <!-- Fontes e Ícones (cada um incluído apenas uma vez) -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/monitoria.css">
     <link href="https://fonts.googleapis.com/css2?family=Mada:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sora&display=swap" rel="stylesheet">
+
+    <!-- Bibliotecas de CSS essenciais -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+
+    <!-- Arquivos de estilos customizados -->
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/monitoria.css">
 </head>
+
 
 <body>
   <?php include('header.php') ?>
