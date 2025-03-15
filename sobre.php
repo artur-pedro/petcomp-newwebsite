@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
-    <link rel="stylesheet" href="/css/globals.css">
-    <link rel="stylesheet" href="/css/sobre.css">
-    <title>Sobre Nós</title>
-</head>
+
+<?php 
+    $title = "Sobre nós";
+    $cssFiles = ['css/sobre.css'];
+    include 'head.php';
+?>
+
 <body>
     <?php include 'header.php'; ?>
 
