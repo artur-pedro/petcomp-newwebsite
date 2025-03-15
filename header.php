@@ -12,9 +12,9 @@
         <div class="dropdown">
             <a href="#" class="dropbtn">Projetos <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
-                <a href="#">Monitoria</a>
+                <a href="monitoria.php">Monitoria</a>
                 <a href="#">Fáb. de software </a>
-                <a href="#">Minicursos e oficinas</a>
+                <a href="minicurso.php">Minicursos e oficinas</a>
             </div>
         </div>
         <div class="dropdown">
