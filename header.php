@@ -1,7 +1,7 @@
 <header>
     <img id="logo" src="img/logo.png" alt="Logo PETComp">
     <nav class="navbar">
-        <a href="#">Início</a>
+        <a href="index.php">Início</a>
         <div class="dropdown">
             <a href="#" class="dropbtn">Conheça o PETComp <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
