@@ -2,17 +2,15 @@
 <html lang="pt-BR">
 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minicurso e Oficinas</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/minicurso.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mada:wght@400;700&display=swap" rel="stylesheet">
-</head>
+<!-- HEAD -->
+<?php
+    $title = "Minicurso e Oficinas";
+    $cssFiles = ['css/minicurso.css'];
+    include "head.php";
+?>
 
 <body>
-  <?php include('header.php') ?>
+  <?php include 'header.php'; ?>
   <main>
     <div>
         <div class="minicurso-title">

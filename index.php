@@ -33,8 +33,10 @@ function truncarTitulo($titulo, $limite = 30) {
 <!DOCTYPE html>
 <html lang="pt-BR">
 
+<!-- HEAD -->
 <?php 
     $title = "PETComp";
+    $cssFiles = ['css/index.css'];
     include "head.php";
 ?>
 

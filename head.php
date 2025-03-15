@@ -20,7 +20,12 @@
     
     <!-- Arquivos de estilos customizados -->
     <link rel="stylesheet" href="css/globals.css">
-    <!-- Se ambos os estilos (index e monitoria) forem necessários na mesma página, inclua-os; caso contrário, use o que for pertinente -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/monitoria.css">
+
+    <?php 
+        if (isset($cssFiles) && is_array($cssFiles)) {
+            foreach ($cssFiles as $cssFile) {
+                echo '<link rel="stylesheet" href="' . $cssFile . '">';
+            }
+        }
+    ?>
 </head>

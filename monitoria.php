@@ -2,14 +2,16 @@
 <html lang="pt-BR">
 
 
+<!-- HEAD -->
 <?php
     $title = "Monitoria";
+    $cssFiles = ['css/monitoria.css'];
     include "head.php";
 ?>
 
 
 <body>
-  <?php include('header.php') ?>
+  <?php include 'header.php'; ?>
   <main>
     <div>
         <div class="main-title">
