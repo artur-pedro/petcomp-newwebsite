@@ -54,3 +54,11 @@ function changeNews() {
 
 // Inicia o loop para mudança de notícias
 setInterval(changeNews, 6000);
+
+function getScreenWidth() {
+    return window.innerWidth;
+}
+
+window.addEventListener("resize", () => {
+    console.log("Largura da tela:", getScreenWidth());
+});

@@ -26,10 +26,10 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="">Sobre nós</a>
+                        <a class="item-button" href="sobre.php">Sobre nós</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="">Integrantes</a>
+                        <a class="item-button" href="integrantes.php">Integrantes</a>
                     </li>
                 </ul>
             </div>
@@ -39,13 +39,13 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="">Monitoria</a>
+                        <a class="item-button" href="monitoria.php">Monitoria</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="">Fáb. Software</a>
+                        <a class="item-button" href="desenvolvimento.php">Fáb. Software</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="">Minicursos e Oficinas</a>
+                        <a class="item-button" href="minicurso.php">Minicursos e Oficinas</a>
                     </li>
                 </ul>
             </div>
@@ -55,10 +55,10 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="">Trabalhos Publicados</a>
+                        <a class="item-button" href="publicacoes.php">Trabalhos Publicados</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="">Revista PETComp</a>
+                        <a class="item-button" href="revista.php">Revista PETComp</a>
                     </li>
                 </ul>
             </div>
@@ -68,10 +68,10 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="">Biblioteca PETComp</a>
+                        <a class="item-button" href="biblioteca-petcomp-monitoria.php">Biblioteca PETComp</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="">PODCast</a>
+                        <a class="item-button" href="podcast.php">PODCast</a>
                     </li>
                 </ul>
             </div>
@@ -81,10 +81,10 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="">Departamento de computação</a>
+                        <a class="item-button" href="https://sigaa.ufma.br/sigaa/public/departamento/portal.jsf?lc=pt_BR&id=998">Departamento de computação</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="">UFMA</a>
+                        <a class="item-button" href="https://portalpadrao.ufma.br/">UFMA</a>
                     </li>
                 </ul>
             </div>

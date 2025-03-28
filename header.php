@@ -6,31 +6,30 @@
             <a href="#" class="dropbtn">Conheça o PETComp <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
                 <a href="sobre.php">Sobre nós</a>
-                <a href="#">Integrantes</a>
+                <a href="integrantes.php">Integrantes</a>
             </div>
         </div>
         <div class="dropdown">
             <a href="#" class="dropbtn">Projetos <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
                 <a href="monitoria.php">Monitoria</a>
-                <a href="#">Fáb. de software </a>
+                <a href="desenvolvimento.php">Fáb. de software </a>
                 <a href="minicurso.php">Minicursos e oficinas</a>
             </div>
         </div>
         <div class="dropdown">
             <a href="#" class="dropbtn">Publicações <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
-                <a href="#">Artigos</a>
-                <a href="#">Relatórios</a>
-                <a href="#">Pesquisas</a>
+                <a href="publicacoes.php">Trabalhos Publicos</a>
+                <a href="#">Revista PETComp</a>
             </div>
         </div>
         <a href="#">Notícias</a>
         <div class="dropdown">
-            <a href="#" class="dropbtn">Produtos <span class="material-icons">arrow_drop_down</span></a>
+            <a href="noticias.php" class="dropbtn">Produtos <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
-                <a href="#">Biblioteca PETComp</a>
-                <a href="#">PodCast</a>
+                <a href="biblioteca-petcomp-monitoria.php">Biblioteca PETComp</a>
+                <a href="produtos-podcomp.php">PodCast</a>
             </div>
         </div>
         <a href="#">Eventos</a>

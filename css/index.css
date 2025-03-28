@@ -13,6 +13,7 @@ body {
     margin: 0;
 }
 
+
 .background {
     background-color: #01204C;
     display: flex;
@@ -21,7 +22,7 @@ body {
 }
 
 /* Classe da imagem do texto PETComp abaixo do header */
-.text-container {
+.text-container1 {
     & img {
         width: 45%;
         height: auto;
@@ -61,10 +62,10 @@ body {
 
 .image-container {
     position: relative;
-    overflow: hidden;
     display: inline-block;
     border-radius: 20px;
     animation: fadeIn 1s ease-out;
+    margin: 0.5rem
 }
 
 .central-img {
@@ -125,14 +126,10 @@ body {
 }
 .ultimasnoticiastext h1 {
     font-size: 3.75rem;
-    width: 100%;
+    width: 100vw;
     height: auto;
     margin: 0 auto;
     text-align: center;
-}
-
-.img-fluid {
-    max-width: 100%;
 }
 
 .central-title, .lateral-title {
@@ -253,12 +250,11 @@ body {
     padding: 0; /* Remove qualquer padding */
     margin: 0; /* Remove margens */
     position: relative;
-    overflow: hidden;
     
 }
 
 .background-img {
-    width: 100%; /* Faz com que a imagem ocupe toda a largura da div */
+    /* width: 100%; */
     height: 100%; /* Faz com que a imagem ocupe toda a altura da div */
     object-fit: cover; /* Garante que a imagem cubra toda a área sem distorcer */
     position: absolute; /* Faz com que a imagem seja o plano de fundo */
@@ -286,7 +282,7 @@ body {
 .carousel-image {
     height: 400px; /* Altura fixa */
     object-fit: cover; 
-    width: 100%;
+    /* width: 100%; */
     margin-top: 0;
 }
 .minifundo ul li img {
@@ -306,64 +302,65 @@ body {
 }
 
 .swiper-slide {
+
     margin: 0;
     padding: 0;
     
 }
 
 .swiper-slide {
-    margin: 0 0px;
-    padding: 0;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .swiper {
-    width: 98.9vw;
+    width: 100vw;
     height: 30vw;
     object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .swiper-slide {
-    background-color: #000;
-    box-shadow: 8px 8px 15px rgba(41, 33, 33, 0.9);
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 99vw;
-    height: 30vw;
-    object-fit: cover;
-    filter: brightness(30%);
-    position: relative;
-    z-index: 0;
     cursor: pointer;
   }
-  .text-carousel {
-    position: absolute;
-    z-index: 1;
-    color: white;
-    font-size: 75px;
-    font-family: 'Mada';
-    left: 50%;
-    margin-left: -180px;
-    top: 100px;
-    
-  }
-  .secundary-text {
-    position: absolute;
-    z-index: 1;
-    color: #fff;
-    left: 50%;
-    margin-left: -335px;
-    top: 260px;
-    
+  .swiper-slide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
 
-  }
+    .swiper-slide img {
+        width: 100vw;
+        height: 30vw;
+        object-fit: cover;
+        filter: brightness(30%);
+    }
+    .text-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: white;
+        z-index: 1;
+    }
+    .text-container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        color: white;
+        z-index: 1;
+    }
+    
+    .secundary-text {
+        font-size: 2vw;
+        max-width: 80%;
+    }
+    
   .swiper button {
     width: 50px;
     height: 50px;
@@ -373,6 +370,12 @@ body {
     outline: none;
     transition: opacity 0.25s;
   }
+  .text-carousel {
+    font-size: 4vw;
+    font-family: 'Mada';
+    font-weight: bold;
+}
+
 
   .swiper button:hover {
     opacity: 0.8;
@@ -404,16 +407,19 @@ body {
     transform: scale(1.1); /* Amplia levemente a imagem ao passar o mouse */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao passar o mouse */
 }
+.swiper-slide {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: inherit; /* Mantém a cor do texto */
+}
 .atividades {
     background-color: #000227;
     width: 100vw;
-    height: 700px;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5rem;
     text-align: justify;
-    overflow-y: scroll;
     padding: 3rem 1rem;
     align-items: center;
     justify-content: center;
@@ -454,6 +460,10 @@ body {
     background-color: #001249;
     color: #fff;
     font-size: 14px;
+    opacity: 0.8;
+}
+.saibamaisbtn:hover {
+    opacity: 1;
 }
 #podcast-card {
     margin-top: 1.4rem;
@@ -475,26 +485,171 @@ body {
     align-items: center;
     flex-wrap: wrap;
     word-break: break-all;
-    
 }
-@media screen and (max-width: 1400px) {
-    #center {
-        margin: 0 100px;
-        justify-content: center;
-        padding: 0;
-        width: 100%;
-    }
+.main {
+    max-width: 100vw !important;
+    min-width: 100vw !important;
+}
+.lateral-img1 {
+    display: none;
 }
 
+
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+    .row {
+        flex-direction: column;
+    }
+    .noticias {
+        display: flex;
+        flex-direction: column;
+    }
+    .noticias-container {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        gap: 20px;
+    }
+    .minifundo {
+        height: auto;
+        padding: 1rem;
+    }
+    .central-img {
+        min-width: 350px; 
+        max-width: 350px;
+        min-height: 240px;
+        max-height: 240px;
+    }
+    .minifundo li {
+        width: 7rem;
+        height: 7rem;
+    }
+    .minifundoliimg img {
+        width: 5rem !important;
+        height: 5rem !important;
+        padding: 0 !important;        
+    }
+    .text-carousel {
+        font-size: 3vw; /* Ajusta o tamanho do texto para não ficar muito grande */
+    }
+
+    .secundary-text {
+        font-size: 1.5vw;
+        max-width: 70%;
+    }
+    
+    .minifundo  {
+        padding: 5rem;
+        
+
+        & ul {
+            gap: 10rem;
+        }
+
+        & h2 {
+            font-size: 3rem;
+        }
+    
+    }
+
+
+}
 @media screen and (max-width: 768px) {
+    .main {
+        display: flex;
+        -ms-flex-align: center;
+        flex-direction: column;
+        max-width: 100vw;
+    }
     .noticias-container {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-
-    .central-img,
-    .lateral-img {
-        width: 100%;
+    .petianos-container {
+        width: 100vw;
+        height: auto;
+        display: block;
     }
+    .petianos-container img {
+        width: 100vw;
+    }
+    .noticias-container, .noticias-container img {
+        padding: 0;
+        margin: 0;
+    }
+    .noticias-container {
+        width: 16rem;
+        height: auto;
+        display: block;
+    }
+    .noticias-container img {
+        width: 16rem;
+        height: auto;
+        display: block;
+    }
+    .minifundo {
+        height: auto;
+        padding: 1rem;
+    }
+    .minifundo h2 {
+        font-size: 1.6rem;
+    }
+    .minifundo li {
+        width: 4rem;
+        height: 4rem;
+    }
+    .minifundoliimg img {
+        width: 2rem !important;
+        height: 2rem !important;
+        padding: 0 !important;        
+    }
+
+    .minifundo  {
+        padding: 5rem;
+        
+
+        & ul {
+            gap: 1.5rem;
+        }
+
+        & h2 {
+            font-size: 1.15rem;
+        }
+    
+    }
+    .lateral-img {
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 240px !important;
+        max-height: 240px !important;
+        animation: fadeIn 1s ease-out;
+    }
+    .central-img{
+        max-width: 350px !important;
+        min-width: 350px !important;
+        min-height: 240px !important;
+        max-height: 240px !important;
+        align-items: center;
+        animation: fadeIn 1s ease-out;
+    }
+    .noticias {
+        display: flex;
+        padding: 4rem !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .central-title {
+        font-size: 14px;
+        animation: titleSlide 1s ease-out;
+    }
+
+    .image-container {
+        margin-bottom: 1rem;
+    }
+    .swiper-pagination-bullet {
+        width: 5px;
+        height: 5px;
+      }
+
+
 }
