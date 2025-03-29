@@ -1,7 +1,9 @@
 <header>
     <img id="logo" src="img/logo.png" alt="Logo PETComp">
     <nav class="navbar">
-        <a href="index.php">Início</a>
+        <div class="dropdown">
+            <a href="index.php" class="nodropbtn">Início</a>
+        </div>
         <div class="dropdown">
             <a href="#" class="dropbtn">Conheça o PETComp <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
@@ -24,7 +26,9 @@
                 <a href="#">Revista PETComp</a>
             </div>
         </div>
-        <a href="#">Notícias</a>
+        <div class="dropdown">
+            <a href="#">Notícias</a>
+        </div>
         <div class="dropdown">
             <a href="noticias.php" class="dropbtn">Produtos <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
@@ -32,7 +36,9 @@
                 <a href="produtos-podcomp.php">PodCast</a>
             </div>
         </div>
-        <a href="#">Eventos</a>
+        <div class="dropdown">
+            <a href="eventos.php" class="nodropbtn">Eventos</a>
+        </div>
     </nav>
     <img src="./assets/svg/menu-white.svg" alt="" class="open-btn" onclick="openMenu()">
 </header>

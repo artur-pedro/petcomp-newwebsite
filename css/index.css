@@ -64,7 +64,6 @@ body {
     position: relative;
     display: inline-block;
     border-radius: 20px;
-    animation: fadeIn 1s ease-out;
     margin: 0.5rem
 }
 
@@ -353,7 +352,6 @@ body {
         align-items: flex-start;
         text-align: left;
         color: white;
-        z-index: 1;
     }
     
     .secundary-text {
@@ -400,6 +398,7 @@ body {
     height: 20px;
   }
   .swiper-pagination-bullet {
+    display: none;
     width: 20px;
     height: 20px;
   }
@@ -490,10 +489,6 @@ body {
     max-width: 100vw !important;
     min-width: 100vw !important;
 }
-.lateral-img1 {
-    display: none;
-}
-
 
 @media screen and (min-width: 769px) and (max-width: 1400px) {
     .row {
@@ -553,6 +548,7 @@ body {
 
 
 }
+
 @media screen and (max-width: 768px) {
     .main {
         display: flex;
@@ -649,6 +645,10 @@ body {
     .swiper-pagination-bullet {
         width: 5px;
         height: 5px;
+      }
+      .final-text {
+        font-size: 1.3rem;
+        margin: 2rem;
       }
 
 

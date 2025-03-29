@@ -12,6 +12,7 @@ var swiper = new Swiper('.carousel', {
     },
   })
 
+
 let currentIndex = 0;
 // Função para mudar as notícias a cada 6 segundos
 function changeNews() {
@@ -54,11 +55,8 @@ function changeNews() {
 
 // Inicia o loop para mudança de notícias
 setInterval(changeNews, 6000);
-
-function getScreenWidth() {
-    return window.innerWidth;
+function openMenu() {
+    document.querySelector('.navbar').classList.toggle('active');
 }
 
-window.addEventListener("resize", () => {
-    console.log("Largura da tela:", getScreenWidth());
-});
+

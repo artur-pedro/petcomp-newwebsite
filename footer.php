@@ -29,7 +29,7 @@
                         <a class="item-button" href="sobre.php">Sobre nós</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="integrantes.php">Integrantes</a>
+                        <a target="_blank" class="item-button" href="integrantes.php">Integrantes</a>
                     </li>
                 </ul>
             </div>
@@ -39,13 +39,13 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="monitoria.php">Monitoria</a>
+                        <a target="_blank"class="item-button" href="monitoria.php">Monitoria</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="desenvolvimento.php">Fáb. Software</a>
+                        <a target="_blank" class="item-button" href="desenvolvimento.php">Fáb. Software</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="minicurso.php">Minicursos e Oficinas</a>
+                        <a target="_blank" class="item-button" href="minicurso.php">Minicursos e Oficinas</a>
                     </li>
                 </ul>
             </div>
@@ -55,10 +55,10 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="publicacoes.php">Trabalhos Publicados</a>
+                        <a target="_blank" class="item-button" href="publicacoes.php">Trabalhos Publicados</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="revista.php">Revista PETComp</a>
+                        <a target="_blank" class="item-button" href="revista.php">Revista PETComp</a>
                     </li>
                 </ul>
             </div>
@@ -68,10 +68,10 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="biblioteca-petcomp-monitoria.php">Biblioteca PETComp</a>
+                        <a target="_blank" class="item-button" href="biblioteca-petcomp-monitoria.php">Biblioteca PETComp</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="podcast.php">PODCast</a>
+                        <a target="_blank" class="item-button" href="podcast.php">PODCast</a>
                     </li>
                 </ul>
             </div>
@@ -81,10 +81,10 @@
                 </h2>
                 <ul class="ulist">
                     <li class="litem">
-                        <a class="item-button" href="https://sigaa.ufma.br/sigaa/public/departamento/portal.jsf?lc=pt_BR&id=998">Departamento de computação</a>
+                        <a target="_blank" class="item-button" href="https://sigaa.ufma.br/sigaa/public/departamento/portal.jsf?lc=pt_BR&id=998">Departamento de computação</a>
                     </li>
                     <li class="litem">
-                        <a class="item-button" href="https://portalpadrao.ufma.br/">UFMA</a>
+                        <a  target="_blank" class="item-button" href="https://portalpadrao.ufma.br/">UFMA</a>
                     </li>
                 </ul>
             </div>
@@ -93,13 +93,13 @@
         <div class="footer-bottom">
             <hr>
             <div class="footer-logos">
-                <a href="https://www.instagram.com/petcompufma/">
+                <a  target="_blank" href="https://www.instagram.com/petcompufma/">
                     <img src="img/logo-instagram.png" alt="logo-instagram">
                 </a>
-                <a href="https://www.facebook.com/petcompufma">
+                <a target="_blank" href="https://www.facebook.com/petcompufma">
                     <img src="img/logo-facebook.png" alt="logo-facebook">
                 </a>
-                <a href="https://x.com/petcompufma">
+                <a target="_blank" href="https://x.com/petcompufma">
                     <img src="img/logo-twitter.png" alt="logo-twitter">
                 </a>
             </div>

@@ -1,52 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Eventos </title>
-
-  <link rel="icon" href="./assets/images/logos/PETComp.png">
-
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Mada:wght@400;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/eventos.css">
-
-</head>
+<?php 
+    $title = "PETComp";
+    $cssFiles = ['css/eventos.css'];
+    include "head.php";
+?>
 
 <body>
     <?php include('header.php') ?>
     <main>
-        <div class= "main-box">
-            <h1>Eventos</h1>
-            <h2>Confira os eventos que nós promovemos!</h2>
-            <div class = "path-text">
-                <a href="#" class="acess-link"> Pagina Inicial -> </a>
-                <h4> Eventos </h4>
+    <div class="container-header">
+        <h2>Eventos</h2>
+        <h3>Confira os eventos nós promovemos</h3>
+        <h4><a href="index.php">Página Inicial</a></h4>
+        <h4> -> Eventos</h4> 
+    
+            
             </div>
-        </div>
-
-        <div class = "textos">
-            <h4 id = "t">Os eventos serão planejados através de reuniões entre o grupo. Na primeira reunião, um petiano é 
+        <div class="container-body">
+        <p>Os eventos serão planejados através de reuniões entre o grupo. Na primeira reunião, um petiano é 
                 eleito líder do monitoramento das atividades a serem realizadas para que ocorra o evento. Este líder
                 , em conjunto com o tutor, indica membros para auxiliá-lo diretamente, podendo inclusive, ser todos 
                 os membros do PET. O tutor atua como facilitador entre as várias entidades e atores da universidade.
-            </h4>
-            <h4>
+            </p>
+            <p>
             O grupo então define a programação baseada em minicursos, tutorias, palestras, competições, apresentação, 
             rodas de discussão e laboratórios e define também comissões para cuidar de grandes tarefas do evento. A 
             programação é baseada na tendência atual da área e tende a atender os anseios do público diretamente envolvido 
             do curso de Ciência da Computação.
-            </h4>
-            <h4>Os eventos são então divulgados através de redes sociais em todos os cursos da área do Maranhão, em 
+            </p>
+            <p>Os eventos são então divulgados através de redes sociais em todos os cursos da área do Maranhão, em 
                 instituições públicas e particulares, assim como em instituições que possuem cursos técnicos na área. 
                 Durante os eventos, as comissões formadas atuam para garantir que a realização do evento ocorra de forma 
                 completamente ordenada.
-            </h4>
+            </p>
         </div>
 
         <div class = "noticias">
@@ -130,14 +117,14 @@
                 <img src="assets\images\pag-eventos\box-ejim.svg" alt="Ícone EJIM">
                 <div class = "texts-content">
                     <h1>EJIM</h1>
-                    <h4>
+                    <p>
                         A Jornada Informática do Maranhão (JIM) é um evento de caráter acadêmico e técnico-científico com o objetivo de 
                         propiciar um espaço de intercâmbio entre os diversos atores dos setores de Informática da região, apresentando e 
                         discutindo temas que abordam a aplicação da Computação para a solução de problemas do Estado do Maranhão, bem como as 
                         pesquisas em Informática realizadas nas instituições do estado, disponibilizando aos participantes a possibilidade de 
                         acesso a temas e discussões recentes na área, através de diversas atividades, como palestras, minicursos, painéis de 
                         discussão e apresentação de trabalhos científicos.
-                    </h4>
+                    </p>
                     <button>Saiba mais</button>
                 </div>
             </div>
@@ -157,4 +144,6 @@
         </div>
     </main>
 </body>
+<?php include('footer.php') ?>
+  <script src="./js/js.js"></script>
 </html>

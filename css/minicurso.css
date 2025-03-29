@@ -1,220 +1,247 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+html, body {
+    overflow: auto;
 }
 
-.minicurso-title {
-    font-family: 'Mada';
-    display: flex;
-    flex-direction: column;
-    background: #001341;
-    color: aliceblue;
-    position:relative;
-    width: 100%;
-    margin-top: 0;
-    padding: 0,5rem 0;
-    top: 0; 
-
-    & h1{
-    padding: 1.8rem 0 0.8rem 0;
-    font-size: 3.7rem;
-    margin-left: 5rem;
-    font-weight: bold;
-    }
-    
-    & h2{
-        padding-bottom: 0.8rem;
-        font-size: 2.5rem;
-        margin-left: 5rem;
-        font-weight: normal;
-    }
+.container-header {
+    color: white;
+    background-color: #01204C;
 }
 
-
-.pages-acessed{
-    display: flex;
-    font-family: 'Mada';
-    gap: 29px;
-    padding-bottom: 49px;
-    font-size: 22px;
-    margin-left: 5rem;
-    font-weight: normal;
-}
-
-.link-acessed{
+.container-header a {
+    cursor: pointer;
+    color: #3AA3FC;
     text-decoration: none;
-    color: #4665DD;
-}
-.minicurso-paragraph {
-    display: block;           
-    margin: 2.5rem 0 30px 0; 
-    line-height: 1.6;         
-    font-size: 1.5rem;        
-    font-weight: 500;         
-    text-align: justify;     
-    padding-left: 5rem;       
-    padding-right: 5rem;      
 }
 
-
-.minicurso-image{
-    overflow: hidden; 
-    display: flex;
-    padding: 1.5rem 5rem 0 5rem;
-    justify-content: space-between;
+.container-body p {
+    line-height: 1.6;
+    text-align: justify;
 }
 
-.left-image{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem; 
-    width: 47rem;
-    height: auto;
+h4 {
+    display: inline;
 }
 
-.right-image{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem; 
-    width: 35rem;
-    height: auto;
+.group {
+    display: inline-block; /* Garante que o bloco envolva a imagem */
+    overflow: hidden; /* Evita que a imagem ultrapasse os limites */
 }
 
-@media screen and (max-width:426px){
-    header .nav-links{ /* Provisorio, enquanto o header nao fica pronto */
-        display: none;
+.group img {
+    width: 100%;
+    display: block;
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
+    animation: fadeIn 1s ease-out;
+    padding: 0.4rem;
+    opacity: 1;
+    border-radius: 30px !important;
+}
+
+.group img:hover {
+    opacity: 1;
+    transform: scale(1.03) !important;
+    border-radius: 2.5rem;
+}
+
+.image-description {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff; /* Ensure the text color is visible */
+    margin: 1rem !important;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background for better readability */
+    border-radius: 5px;
+}
+
+.image-container {
+    position: relative; /* Make this container the reference for absolute positioning */
+}
+
+.image-description {
+    position: absolute; /* Position the description over the image */
+    bottom: 10px; /* Align the description at the bottom */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Adjust for perfect centering */
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff; /* Ensure the text is visible */
+    padding: 10px;
+    background-color: rgba(1, 32, 76, 0.5); /* Optional: Add a background for better readability */
+    border-radius: 5px;
+    z-index: 1; /* Ensure the description appears above the image */
+}
+
+.group {
+    display: inline-block;
+    overflow: visible; /* Allow the text to overflow if necessary */
+}
+
+/* Animação de carregamento mais lenta */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Pequeno movimento para dar um efeito mais suave */
     }
-    
-    .minicurso-title {
-        font-family: 'Mada';
-        display: flex;
-        flex-direction: column;
-        background: #001341;
-        color: aliceblue;
-        position:relative;
-        width: 100%;
-        
-        & h1{
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo para telas grandes (Desktop) */
+@media screen and (min-width: 1025px) {
+    .container-header {
+        padding: 50px 60px;
+    }
+
+    .container-header h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .container-header h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+    .container-header p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .container-body {
+        padding: 50px 60px;
+    }
+
+    .container-body p {
         font-size: 20px;
-        margin-left: 31px;
-        font-weight: bold;
-        padding-top: 9px;;
-        padding-bottom: 9px;
-        }
-        
-        & h2{
-            padding-bottom: 9px;
-            font-size: 10px;
-            margin-left: 31px;
-            font-weight: normal;
-        }
-    .pages-acessed{
+        font-weight: medium;
+    }
+
+    .gallery {
+        gap: 40px;
+        display: grid;
+        margin: 50px 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .group {
         display: flex;
-        font-family: 'Mada';
-        gap: 3px;
-        padding-bottom: 3px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .group img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+
+/* Estilo para dispositivos com largura até 1024px (tablets e telas pequenas) */
+@media screen and (max-width: 1024px) {
+    .gallery {
+        display: flex;
+        flex-direction: column; /* Muda para layout em coluna */
+        margin: 30px 40px;
+        gap: 40px;
+    }
+
+    .group {
+        width: 100%; /* Cada imagem ocupa toda a largura disponível */
+        display: block; /* Imagens empilhadas verticalmente */
+        gap: 10px;
+    }
+    
+    .group img {
+        width: 100%;
+        height: auto; /* Mantém a proporção das imagens */
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .group img.wide {
+        grid-column: span 2;
+    }
+}
+
+/* Estilo para dispositivos com largura entre 601px e 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container-header {
+        padding: 20px 70px;
+    }
+
+    .container-header h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .container-header h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .container-header p {
+        font-size: 9px;
+        font-weight: normal;
+    }
+
+    .container-body {
+        padding: 20px 50px;
+    }
+
+    .container-body p {
+        font-size: 14px;
+        text-indent: 2em;
+    }
+}
+
+/* Estilo para dispositivos com largura até 768px (telas médias) */
+@media screen and (max-width: 768px) {
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    .group img {
+        opacity: 1;
+    }
+}
+
+/* Estilo para dispositivos com largura até 600px (smartphones) */
+@media screen and (max-width: 600px) {
+    .container-header {
+        padding: 20px 40px;
+    }
+
+    .container-header h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .container-header h3 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container-header p {
         font-size: 5px;
-        margin-left: 31px;
         font-weight: normal;
     }
+
+    .container-body {
+        padding: 20px 40px;
     }
-    .minicurso-paragraph {
-        font-family: 'Mada';
-        margin-top: 1rem; 
-        font-size: 0.5rem; 
-        font-weight: normal;
-        text-align: justify;
-        padding-left: 2rem; 
-        padding-right: 2rem;
+
+    .container-body p {
+        font-size: 10px;
+        text-indent: 2em;
     }
-    .minicurso-image {
-        overflow: hidden; 
-        display: flex;
-        flex-direction: column; 
-        padding: 1.5rem 2rem 0 2rem;
+    .gallery {
+        gap: 10px;
     }
-    .left-image{
-        display: flex;
-        flex-direction: column;
-        gap: 1.8rem; 
-        width: 100%;
-        height: auto;
-    }
-    
-    .right-image {
-        display: flex;
-        flex-direction: column;
-        padding-top: 1.8rem; 
-        width: 100%;
-        height: auto;
-    }
-    
 }
-
-@media screen and (min-width:426px) and (max-width: 768px){
-    header .nav-links{
-        display: none;  /* Provisorio, enquanto o header nao fica pronto */
-    }
-    .minicurso-title {
-        font-family: 'Mada';
-        display: flex;
-        flex-direction: column;
-        background: #001341;
-        color: aliceblue;
-        position:relative;
-        width: 100%;
-        
-        & h1{
-        font-size: 4rem;
-        margin-left: 5rem;
-        font-weight: bold;
-        padding-top: 0.5rem;;
-        padding-bottom: 0.5rem;
-        }
-        
-        & h2{
-            padding-bottom: 0.5rem;
-            font-size: 1.5rem;
-            margin-left: 5rem;
-            font-weight: normal;
-        }
-    .pages-acessed{
-        display: flex;
-        font-family: 'Mada';
-        gap: 0.5rem;
-        padding-bottom: 0.5rem;
-        font-size: 1rem;
-        margin-left: 5rem;
-        font-weight: normal;
-    }
-    }
-    .minicurso-paragraph{
-        font-size: 1rem;
-    }
-    .minicurso-image {
-        overflow: hidden; 
-        display: flex;
-        flex-direction: column; 
-        padding: 1.5rem 5rem 0 5rem;
-    }
-    .left-image{
-        display: flex;
-        flex-direction: column;
-        gap: 1.8rem; 
-        width: 100%;
-        height: auto;
-    }
-    
-    .right-image {
-        display: flex;
-        flex-direction: column;
-        padding-top: 1.8rem; 
-        width: 100%;
-        height: auto;
-    }
-    
-}
-
-
