@@ -26,7 +26,7 @@
             <h1>PODComp</h1>
             <h2>O PODCast do PETComp</h2>
             <div class = "path-text">
-                <a href="#" class="acess-link"> Pagina Inicial -> </a>
+                <a href="#" class="acess-link"> Pagina Inicial -></a>
                 <h4> Eventos </h4>
             </div>
         </div>
@@ -41,6 +41,7 @@
                 clara, atrativa e confiável.
             </h4>
         </div>
+
         <div class = "infos"> 
             <div class = "texts">
                 <h2>
@@ -66,6 +67,57 @@
             <img src="assets\images\pag-podcast\img-podcast.png" alt="Imagem podcast">
         
         </div>
+
+        <div class="episodios">
+
+            <div class="ep-unico">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/758i4WcF47ZhgldSavGuf0?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>
+                    <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
+                    Breno Vidigal, Melquezedeque Costa,Paloma Santos,Thiago Augusto
+                </p>
+            </div>
+
+            <div class="ep-unico">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0F9f8Reg6bHXWGkOIsbnqb?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>
+                    <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
+                    André Ribeiro, Mikael Silva,Thiago Augusto
+                </p>
+            </div>
+
+            <div class="ep-unico">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3qVO8s24JVKJ3xvRkw4NkK?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>
+                    <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
+                    Ramille Santana, Thiago Augusto, William Martins
+                </p>
+            </div>
+
+            <div class="ep-unico">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1ojUIAbpBZDtl5jDTH7zZa?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>
+                    <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
+                    Carlos Vinicius, André Filipe, Thalisson Jon
+                </p>
+            </div>
+
+            <div class="ep-unico">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0Ovw2X9sNC8dggp9Ht7EYM?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>
+                    <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
+                    Carlos Silva, André Filipe
+                </p>
+            </div>
+
+        </div>
+
+        <div class="ver-mais">
+            <button>
+                <a href="https://open.spotify.com/show/6fTiqItsIWohIacVtUv0Dn?si=bdca1064a4734622"target="_blank">ver mais</a>
+            </button>
+        </div>
+            
 
     </main>
         <?php include 'footer.php'; ?>

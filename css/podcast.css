@@ -8,6 +8,27 @@ body {
     text-align: justify;
     padding: 0px;
 }
+
+.path-text{
+    font-family: 'Mada';
+    display: flex;
+    font-weight: 400;
+    gap: 5px;
+    font-size: 20px;
+
+    & h4{
+        font-weight: 400;
+    }
+    & a{
+        color: rgb(70, 101, 221);
+        text-decoration: none;
+    }
+    
+    & a:hover{
+        color: rgb(74, 167, 224);
+    }
+}
+
 .main-box{
     background-color: rgb(0, 19, 65);
     color: white;
@@ -67,6 +88,42 @@ body {
     color:transparent;
     -webkit-text-stroke: 1px white;
 }
+
+.episodios{
+    padding-top: 1em;
+    padding-left: 13em;
+    padding-right: 13em;
+}
+
+.ep-unico{
+    font-family: 'Mada';
+    background: #000838;
+    border-radius: 1em;
+    color: rgba(255, 255, 255, 0.801);
+    margin: 20px;
+}
+
+.ver-mais{
+    align-items: center;
+    justify-content: center;
+    & button{
+        font-family: 'Mada';
+        display: block;
+        margin-left: auto;
+        width: 116px;
+        height: 35px;
+        background-color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-weight: 550;
+        color: rgb(129, 129, 129);
+        border: 2px solid rgb(177, 177, 177);
+        border-radius: 30px;
+    }
+    & button:hover{
+        background-color: rgb(241, 241, 241);
+    }
+}
+
 @media (max-width:500px){
     .textos{
         padding: 1rem 3rem;
