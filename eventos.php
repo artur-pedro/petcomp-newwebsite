@@ -143,6 +143,8 @@
             </div>
         </div>
     </main>
+    <?php include('footer.php') ?>
+    <script src="./js/js.js"></script>
 </body>
 <?php include('footer.php') ?>
   <script src="./js/js.js"></script>
