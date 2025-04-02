@@ -93,22 +93,47 @@ body {
     padding-top: 1em;
     padding-left: 13em;
     padding-right: 13em;
+    font-family: 'Mada';
+    & h2{
+        text-align: center;
+        color:rgb(0, 19, 65);
+        font-weight: 700;
+        font-size: 45px;
+    }
 }
 
 .ep-unico{
     font-family: 'Mada';
     background: #000838;
-    border-radius: 1em;
+    border-radius: 18px;
     color: rgba(255, 255, 255, 0.801);
     margin: 20px;
+    & p {
+        font-family: "Montserrat", sans-serif;
+        line-height: 3em;
+        text-align: justify;
+        text-indent: 0.8em;
+        align-items: center;
+        display: flex;
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    & img {
+        max-width: 20px;
+        height: auto;
+    }
 }
 .ver-mais{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin-bottom: 2em;
     & a{ 
         align-items: center;
         justify-content: center;
         font-family: 'Mada';
         display: block;
-        margin-left: auto;
         width: 116px;
         height: 35px;
         background-color: rgb(255, 255, 255);

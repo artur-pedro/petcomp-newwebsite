@@ -69,9 +69,11 @@
         </div>
 
         <div class="episodios">
-
+            <h2>
+                Episódios
+            </h2>
             <div class="ep-unico">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/758i4WcF47ZhgldSavGuf0?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:18px" src="https://open.spotify.com/embed/episode/758i4WcF47ZhgldSavGuf0?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 <p>
                     <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
                     Breno Vidigal, Melquezedeque Costa,Paloma Santos,Thiago Augusto
@@ -79,7 +81,7 @@
             </div>
 
             <div class="ep-unico">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0F9f8Reg6bHXWGkOIsbnqb?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:18px" src="https://open.spotify.com/embed/episode/0F9f8Reg6bHXWGkOIsbnqb?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 <p>
                     <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
                     André Ribeiro, Mikael Silva,Thiago Augusto
@@ -87,7 +89,7 @@
             </div>
 
             <div class="ep-unico">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3qVO8s24JVKJ3xvRkw4NkK?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:18px" src="https://open.spotify.com/embed/episode/3qVO8s24JVKJ3xvRkw4NkK?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 <p>
                     <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
                     Ramille Santana, Thiago Augusto, William Martins
@@ -95,7 +97,7 @@
             </div>
 
             <div class="ep-unico">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1ojUIAbpBZDtl5jDTH7zZa?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:18px" src="https://open.spotify.com/embed/episode/1ojUIAbpBZDtl5jDTH7zZa?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 <p>
                     <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
                     Carlos Vinicius, André Filipe, Thalisson Jon
@@ -103,7 +105,7 @@
             </div>
 
             <div class="ep-unico">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0Ovw2X9sNC8dggp9Ht7EYM?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:18px" src="https://open.spotify.com/embed/episode/0Ovw2X9sNC8dggp9Ht7EYM?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 <p>
                     <img src="assets\images\logos\microfone-podcast.png" alt="imagem podcast">
                     Carlos Silva, André Filipe
