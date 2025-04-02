@@ -113,9 +113,7 @@
         </div>
 
         <div class="ver-mais">
-            <button>
-                <a href="https://open.spotify.com/show/6fTiqItsIWohIacVtUv0Dn?si=bdca1064a4734622"target="_blank">ver mais</a>
-            </button>
+            <a href="https://open.spotify.com/show/6fTiqItsIWohIacVtUv0Dn?si=bdca1064a4734622"target="_blank">ver mais</a>
         </div>
             
 

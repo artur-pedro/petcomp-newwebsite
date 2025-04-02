@@ -102,25 +102,29 @@ body {
     color: rgba(255, 255, 255, 0.801);
     margin: 20px;
 }
-
 .ver-mais{
-    align-items: center;
-    justify-content: center;
-    & button{
+    & a{ 
+        align-items: center;
+        justify-content: center;
         font-family: 'Mada';
         display: block;
         margin-left: auto;
         width: 116px;
         height: 35px;
         background-color: rgb(255, 255, 255);
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 550;
-        color: rgb(129, 129, 129);
-        border: 2px solid rgb(177, 177, 177);
+        color: #000838;
+        border: 2px solid #000838;
         border-radius: 30px;
+        text-align: center; 
+        text-decoration: none;
+        display: flex;
     }
-    & button:hover{
-        background-color: rgb(241, 241, 241);
+    & a:hover{
+        background-color: #000838;
+        color: white;
+        text-decoration: none;
     }
 }
 
