@@ -12,6 +12,7 @@ body {
 .container-header {
     color: white;
     background-color: #01204C;
+    padding: 20px 40px;
 }
 
 .container-header a {
