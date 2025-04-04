@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="dropdown">
-            <a href="#">Notícias</a>
+            <a href="noticias.php">Notícias</a>
         </div>
         <div class="dropdown">
             <a href="noticias.php" class="dropbtn">Produtos <span class="material-icons">arrow_drop_down</span></a>

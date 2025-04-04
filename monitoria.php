@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <?php 
-    $title = "Sobre nós";
+    $title = "Monitoria";
     $cssFiles = ['css/monitoria.css'];
     include 'head.php';
 ?>
