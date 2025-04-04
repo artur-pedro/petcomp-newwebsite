@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: justify;
+    padding: 0px;
+}
+
+.box-models {
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
+}
+
+.box-models:hover {
+    transform: scale(1.03) !important;
+
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Pequeno movimento para dar um efeito mais suave */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

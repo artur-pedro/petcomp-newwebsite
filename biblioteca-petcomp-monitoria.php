@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <?php 
     $title = "Biblioteca";
-    $cssFiles = [''];
+    $cssFiles = ['css\biblioteca.css'];
     include "head.php";
 ?>
 
