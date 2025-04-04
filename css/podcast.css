@@ -9,6 +9,26 @@ body {
     padding: 0px;
 }
 
+.container-header {
+    color: white;
+    background-color: #01204C;
+}
+
+.container-header a {
+    cursor: pointer;
+    color: #3AA3FC;
+    text-decoration: none;
+}
+
+.container-body p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+h4 {
+    display: inline;
+}
+
 .path-text{
     font-family: 'Mada';
     display: flex;
@@ -29,34 +49,18 @@ body {
     }
 }
 
-.main-box{
-    background-color: rgb(0, 19, 65);
-    color: white;
-    font-family: 'Mada';
-    padding: 3rem 5rem;
-    margin: auto;
-    & h1{
-        font-weight: 700;
-        font-size: 55px;
-    }
-    & h2{
-        font-weight: 400;
-        font-size: 38px;
-        margin-bottom: 5px;
-    }
-}
-
-
 .textos{
     font-family: 'Mada';
     font-weight: 500;
     gap: 5px;
     height: 50%;
     width: 100%;
-    padding: 3rem 5rem;
-    font-size: 22px;
-    & h4{
-        font-weight: 400;
+    padding: 50px 60px;
+    line-height: 1.6;
+    text-align: justify;
+    & p{
+        font-size: 20px;
+        
     }
 }
 
@@ -156,5 +160,25 @@ body {
 @media (max-width:500px){
     .textos{
         padding: 1rem 3rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .container-header {
+        padding: 50px 60px;
+    }
+    .container-header h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .container-header h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+    .container-header p {
+        font-size: 16px;
+        font-weight: normal;
     }
 }
