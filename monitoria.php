@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <?php 
-    $title = "Sobre nós";
+    $title = "Monitoria";
     $cssFiles = ['css/monitoria.css'];
     include 'head.php';
 ?>
@@ -11,8 +11,8 @@
     <?php include 'header.php'; ?>
 
     <div class="container-header">
-        <h2>Sobre nós</h2>
-        <h3>Conheça um pouco sobre o grupo</h3>
+        <h2>Monitoria</h2>
+        <h3>Como o PETComp apoia os alunos de computação</h3>
         <h4><a href="index.php">Página Inicial</a></h4>
         <h4> -> Projetos</h4>
         <h4> -> Monitoria</h4>
