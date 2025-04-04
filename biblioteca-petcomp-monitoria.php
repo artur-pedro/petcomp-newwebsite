@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <?php 
     $title = "Biblioteca";
-    $cssFiles = [''];
+    $cssFiles = ['css\biblioteca.css'];
     include "head.php";
 ?>
 
@@ -24,20 +24,66 @@
 
         <div class = "noticias">
             <div class= "box-models" >
-
+                <div>
+                    <h1>Algorítmos 1</h1>
+                    <button>Vídeo Aula</button>
+                    <button>Questionário</button>
+                    <button>Resumo</button>
+                    <button>Acessar</button>
+                </div>
+                <div>
+                    <img src="img\algorítmos 1 - biblioteca.png" alt="Ícone Algorítmos 1">
+                </div>
             </div>
+            
             <div class="box-models">
-
+                <div>
+                    <h1>Cálculo 1</h1>
+                    <button>Vídeo Aula</button>
+                    <button>Questionário</button>
+                    <button>Resumo</button>
+                    <button>Acessar</button>
+                </div>
+                <div>
+                    <img src="img\calc 1 - biblioteca.png" alt="Ícone Cálculo 1">
+                </div>
             </div>
+                <div>
+                    <h1>Estrutura de Dados 1</h1>
+                    <button>Vídeo Aula</button>
+                    <button>Questionário</button>
+                    <button>Resumo</button>
+                    <button>Acessar</button>
+                </div>
+                <div>
+                    <img src="img\estrutura de dados- biblioteca.png" alt="Ícone Estrutura de Dados 1">
+                </div>
             <div class="box-models">
-
+                <div>
+                    <h1>Linguagem de Programação 1</h1>
+                    <button>Vídeo Aula</button>
+                    <button>Questionário</button>
+                    <button>Resumo</button>
+                    <button>Acessar</button>
+                </div>
+                <div>
+                    <img src="img\linguagem de programacao - biblioteca.png" alt="Ícone Linguagem de Programação 1">
+                </div>
             </div>
+            
             <div class="box-models">
-
+                <div>
+                    <h1>Matemática Discreta e Lógica</h1>
+                    <button>Vídeo Aula</button>
+                    <button>Questionário</button>
+                    <button>Resumo</button>
+                    <button>Acessar</button>
+                </div>
+                <div>
+                    <img src="img\matematica discreta e logica - biblioteca.png" alt="Ícone Matemática Discreta e Lógica">
+                </div>
             </div>
-            <div class="box-models">
-
-            </div>
+            
         </div>
     
     </main>
