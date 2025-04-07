@@ -9,6 +9,28 @@ body {
     padding: 0px;
 }
 
+.container-header {
+    color: white;
+    background-color: #01204C;
+}
+
+.container-header a {
+    cursor: pointer;
+    color: #3AA3FC;
+    text-decoration: none;
+}
+
+.container-body p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+h4 {
+    display: inline;
+}
+
+
+
 .box-models {
     transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
 }
