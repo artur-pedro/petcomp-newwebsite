@@ -21,7 +21,7 @@
             </p>        
         </div>
 
-        <div class = "noticias">
+        <div class = "cadeira-monitoria">
             <div class= "box-models" >
                 <div>
                     <h1>Algorítmos 1</h1>
@@ -47,6 +47,8 @@
                     <img src="img\calc 1 - biblioteca.png" alt="Ícone Cálculo 1">
                 </div>
             </div>
+            
+            <div class="box-models">
                 <div>
                     <h1>Estrutura de Dados 1</h1>
                     <button>Vídeo Aula</button>
@@ -57,6 +59,8 @@
                 <div>
                     <img src="img\estrutura de dados- biblioteca.png" alt="Ícone Estrutura de Dados 1">
                 </div>
+            </div>
+
             <div class="box-models">
                 <div>
                     <h1>Linguagem de Programação 1</h1>
