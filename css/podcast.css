@@ -183,3 +183,160 @@ h4 {
         font-weight: normal;
     }
 }
+/* Tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .infos {
+        padding: 2rem 3rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+
+        & h2 {
+            font-size: 40px;
+            text-align: left;
+        }
+    }
+
+    .texts {
+        padding-right: 0;
+        margin-bottom: 0;
+        flex: 1;
+    }
+
+    .infos img {
+        max-width: 40%;
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    .episodios {
+        padding-left: 5em;
+        padding-right: 5em;
+
+        & h2 {
+            font-size: 38px;
+        }
+    }
+
+    .textos {
+        padding: 30px 40px;
+
+        & p {
+            font-size: 18px;
+        }
+    }
+}
+
+/* Tablets pequenos e celulares grandes (481px - 767px) */
+@media screen and (max-width: 768px) {
+    .infos {
+        padding: 1.5rem 2rem;
+        flex-direction: row; /* ← lado a lado */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left; /* texto alinhado à esquerda */
+        gap: 1.5rem;
+    }
+
+    .texts { 
+        flex: 1;
+        padding-right: 1rem;
+        margin-bottom: 0;
+    }
+
+    .infos img {
+        max-width: 40%;
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    .infos h2 {
+        font-size: 32px;
+    }
+
+    .episodios {
+        padding-left: 2em;
+        padding-right: 2em;
+
+        & h2 {
+            font-size: 32px;
+        }
+    }
+
+    .path-text {
+        font-size: 16px;
+    }
+
+    .textos {
+        padding: 20px 30px;
+
+        & p {
+            font-size: 16px;
+        }
+    }
+
+    .ver-mais a {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+/* Celulares pequenos (até 480px) */
+@media screen and (max-width: 480px) {
+    .container-header {
+        padding: 15px 20px !important;
+    }
+
+    .infos {
+        padding: 1rem;
+        text-align: center;
+
+        & h2 {
+            font-size: 24px;
+        }
+
+        & img {
+            max-width: 90%;
+        }
+    }
+
+    .episodios {
+        padding-left: 1em;
+        padding-right: 1em;
+
+        & h2 {
+            font-size: 24px;
+        }
+    }
+
+    .path-text {
+        font-size: 14px;
+    }
+
+    .textos {
+        padding: 15px 20px;
+
+        & p {
+            font-size: 14px;
+        }
+    }
+
+    .ep-unico {
+        margin: 10px 0;
+
+        & p {
+            font-size: 12px;
+            line-height: 2em;
+        }
+    }
+
+    .ver-mais a {
+        width: 90px;
+        height: 28px;
+        font-size: 14px;
+    }
+}
