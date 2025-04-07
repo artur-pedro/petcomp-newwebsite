@@ -27,3 +27,23 @@ body {
         transform: translateY(0);
     }
 }
+
+.container-header {
+    color: white;
+    background-color: #01204C;
+}
+
+.container-header a {
+    cursor: pointer;
+    color: #3AA3FC;
+    text-decoration: none;
+}
+
+.container-body p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+h4 {
+    display: inline;
+}
