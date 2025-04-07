@@ -18,7 +18,8 @@
         height: 100%;
     }
     footer {
-        width: 100vw;
+        width: 100% !important;
+        max-width:  100% !important;
     }
 
     /* Header */
@@ -195,7 +196,8 @@
         }
     }
     .noticias {
-        max-width: 100vw;
+        max-width: 100% !important;
+        width: 100% !important;
     }
     .texts-content button:active {
         background-color: #1B5E9C;
@@ -300,7 +302,8 @@
             top: 70px;
             left: 0;
             background-color: #01204C;
-            width: 100%;
+            width: 100% !important;
+            max-width: 100% !important;
             padding: 15px 0;
         }
 
@@ -317,7 +320,9 @@
         .navbar.active {
             display: flex;
         }
-        
+        .container-header a {
+            font-size: 1.3rem;
+        }
     }
     @media screen and (max-width: 360px) {
         a {

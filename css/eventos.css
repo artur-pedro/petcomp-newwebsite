@@ -8,7 +8,6 @@ body {
     text-align: justify;
     padding: 0px;
 }
-
 .container-header {
     color: white;
     background-color: #01204C;
@@ -28,6 +27,7 @@ body {
 h4 {
     display: inline;
 }
+
 
 .path-text{
     display: flex;
@@ -64,7 +64,6 @@ h4 {
         margin-bottom: 5px;
     }
 }
-
 .box-models {
     transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
 }
@@ -124,6 +123,7 @@ h4 {
 
     .container-body p {
         font-size: 20px;
+        font-weight: medium;
     }
 }
 @media (max-width:500px){
