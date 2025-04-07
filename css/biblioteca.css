@@ -31,7 +31,6 @@ h4 {
 
 .box-models {
     transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
-    flex-direction: row;
 }
 
 .box-models:hover {
@@ -51,6 +50,12 @@ h4 {
         padding: 1em;
         height: auto;
         width: 200px;
+    }
+}
+
+@media (max-width: 950px) {
+    .box-models{
+        flex-direction: column;
     }
 }
 
