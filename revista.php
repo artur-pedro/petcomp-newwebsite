@@ -49,6 +49,7 @@
 
 
 
+<<<<<<< Updated upstream
 
         <!-- Inputs de controle do slide -->
     <input type="radio" name="carousel" id="slide1" checked>
@@ -81,6 +82,8 @@
         <label for="slide1" class="arrow" id="right3">&#10095;</label>
         </div>
     </div>
+=======
+>>>>>>> Stashed changes
 
 
     <?php include 'footer.php'; ?>
