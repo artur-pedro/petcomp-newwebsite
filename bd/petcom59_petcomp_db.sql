@@ -117,7 +117,7 @@ CREATE TABLE `petianos` (
   `ano` int NOT NULL,
   `periodo` int NOT NULL,
   `ativo` tinyint NOT NULL,
-  `orientador` tinyint NOT NULL,
+  `Tutor` tinyint NOT NULL,
   `voluntario` tinyint NOT NULL,
   `imagem` varchar(45) NOT NULL,
   `sobre` text,
@@ -128,7 +128,7 @@ CREATE TABLE `petianos` (
 -- Despejando dados para a tabela `petianos`
 --
 
-INSERT INTO `petianos` (`id`, `nome_completo`, `primeiro_nome`, `ultimo_nome`, `ano`, `periodo`, `ativo`, `orientador`, `voluntario`, `imagem`, `sobre`, `social`) VALUES
+INSERT INTO `petianos` (`id`, `nome_completo`, `primeiro_nome`, `ultimo_nome`, `ano`, `periodo`, `ativo`, `Tutor`, `voluntario`, `imagem`, `sobre`, `social`) VALUES
 (1, 'Luis Rivero', 'Luis ', ' Rivero', 2019, 1, 1, 1, 0, 'Luis Riveiro.jpg', '\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"', 'linkedin=\"https://www.linkedin.com/\";github=\"https://github.com/\";'),
 (2, 'Geraldo Braz Junior', 'Geraldo', 'Braz', 2016, 1, 0, 1, 0, 'Geraldo Braz.jpg', 'saaaaaaaaaaa', NULL),
 (3, 'Alexandre Cesar Muniz de Oliveira', 'Alexandre', 'Oliveira', 2007, 2, 0, 1, 0, 'Alexandre Oliveira.jpg', NULL, NULL),

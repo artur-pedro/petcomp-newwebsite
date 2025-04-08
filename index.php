@@ -59,6 +59,7 @@ function truncarTitulo($titulo, $limite = 30) {
 </div>
 
 <div class="noticias">
+    
     <section class="ultimasnoticiastext">
         <h1>Últimas notícias</h1>
     </section>
