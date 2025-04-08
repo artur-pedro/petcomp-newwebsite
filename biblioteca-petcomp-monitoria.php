@@ -14,7 +14,6 @@
         <h3>Veja as monitorias que promovemos</h3>
         <h4><a href="index.php">Página Inicial</a></h4>
         <h4> -> Biblioteca PETComp</h4>
-
     </div>
         
         <div class="container-body">
@@ -22,14 +21,16 @@
             </p>        
         </div>
 
-        <div class = "noticias">
+        <div class = "cadeira-monitoria">
             <div class= "box-models" >
                 <div>
                     <h1>Algorítmos 1</h1>
-                    <button>Vídeo Aula</button>
-                    <button>Questionário</button>
-                    <button>Resumo</button>
-                    <button>Acessar</button>
+                    <div class="buttons-infos">
+                        <button>Vídeo Aula</button>
+                        <button>Questionário</button>
+                        <button>Resumo</button>
+                        <button>Acessar</button>
+                    </div>
                 </div>
                 <div>
                     <img src="img\algorítmos 1 - biblioteca.png" alt="Ícone Algorítmos 1">
@@ -39,32 +40,42 @@
             <div class="box-models">
                 <div>
                     <h1>Cálculo 1</h1>
-                    <button>Vídeo Aula</button>
-                    <button>Questionário</button>
-                    <button>Resumo</button>
-                    <button>Acessar</button>
+                    <div class="buttons-infos">
+                        <button>Vídeo Aula</button>
+                        <button>Questionário</button>
+                        <button>Resumo</button>
+                        <button>Acessar</button>
+                    </div>
                 </div>
                 <div>
                     <img src="img\calc 1 - biblioteca.png" alt="Ícone Cálculo 1">
                 </div>
             </div>
+            
+            <div class="box-models">
                 <div>
                     <h1>Estrutura de Dados 1</h1>
-                    <button>Vídeo Aula</button>
-                    <button>Questionário</button>
-                    <button>Resumo</button>
-                    <button>Acessar</button>
+                    <div class="buttons-infos">
+                        <button>Vídeo Aula</button>
+                        <button>Questionário</button>
+                        <button>Resumo</button>
+                        <button>Acessar</button>
+                    </div>
                 </div>
                 <div>
                     <img src="img\estrutura de dados- biblioteca.png" alt="Ícone Estrutura de Dados 1">
                 </div>
+            </div>
+
             <div class="box-models">
                 <div>
                     <h1>Linguagem de Programação 1</h1>
-                    <button>Vídeo Aula</button>
-                    <button>Questionário</button>
-                    <button>Resumo</button>
-                    <button>Acessar</button>
+                    <div class="buttons-infos">
+                        <button>Vídeo Aula</button>
+                        <button>Questionário</button>
+                        <button>Resumo</button>
+                        <button>Acessar</button>
+                    </div>
                 </div>
                 <div>
                     <img src="img\linguagem de programacao - biblioteca.png" alt="Ícone Linguagem de Programação 1">
@@ -74,10 +85,12 @@
             <div class="box-models">
                 <div>
                     <h1>Matemática Discreta e Lógica</h1>
-                    <button>Vídeo Aula</button>
-                    <button>Questionário</button>
-                    <button>Resumo</button>
-                    <button>Acessar</button>
+                    <div class="buttons-infos">
+                        <button>Vídeo Aula</button>
+                        <button>Questionário</button>
+                        <button>Resumo</button>
+                        <button>Acessar</button>
+                    </div>
                 </div>
                 <div>
                     <img src="img\matematica discreta e logica - biblioteca.png" alt="Ícone Matemática Discreta e Lógica">
