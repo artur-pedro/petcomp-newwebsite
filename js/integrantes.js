@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
   })
 })
+
 document.addEventListener('DOMContentLoaded', () => {
   // Seleciona todos os botões "mostrar mais"
   const showMoreButtons = document.querySelectorAll('.button-showmore');

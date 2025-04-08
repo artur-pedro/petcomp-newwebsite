@@ -37,7 +37,11 @@ function truncarTitulo($titulo, $limite = 30) {
 <?php 
     $title = "PETComp";
     $cssFiles = ['css/index.css'];
+    $jsFiles = ['js/swiper.js', 'js/index.js'];
     include "head.php";
+    
+    
+
 ?>
 
 <body>
@@ -205,12 +209,5 @@ function truncarTitulo($titulo, $limite = 30) {
 
 <?php include 'footer.php'; ?>
 </div>
-
-<!-- Referência ao arquivo JS externo -->
-<script src="js/js.js" defer></script>
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
 </body>
 </html>
