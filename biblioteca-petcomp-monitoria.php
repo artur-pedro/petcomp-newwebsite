@@ -29,7 +29,7 @@
                         <button>Vídeo Aula</button>
                         <button>Questionário</button>
                         <button>Resumo</button>
-                        <button>Acessar</button>
+                        <button id='acessar'>Acessar</button>
                     </div>
                 </div>
                 <div>
@@ -44,7 +44,7 @@
                         <button>Vídeo Aula</button>
                         <button>Questionário</button>
                         <button>Resumo</button>
-                        <button>Acessar</button>
+                        <button id='acessar'>Acessar</button>
                     </div>
                 </div>
                 <div>
@@ -59,7 +59,7 @@
                         <button>Vídeo Aula</button>
                         <button>Questionário</button>
                         <button>Resumo</button>
-                        <button>Acessar</button>
+                        <button id='acessar'>Acessar</button>
                     </div>
                 </div>
                 <div>
@@ -74,7 +74,7 @@
                         <button>Vídeo Aula</button>
                         <button>Questionário</button>
                         <button>Resumo</button>
-                        <button>Acessar</button>
+                        <button id='acessar'>Acessar</button>
                     </div>
                 </div>
                 <div>
@@ -89,7 +89,7 @@
                         <button>Vídeo Aula</button>
                         <button>Questionário</button>
                         <button>Resumo</button>
-                        <button>Acessar</button>
+                        <button id='acessar'>Acessar</button>
                     </div>
                 </div>
                 <div>
