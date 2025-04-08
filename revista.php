@@ -26,8 +26,29 @@
             <p>
             ue quis nisl nec erat aliquam posuere. Curabitur et vestibulum nunc. Vestibulum vel tellus sagittis eros imperdiet eleifend non quis leo. Sed vitae leo in diam imperdiet fermentum. Donec aliquam porttitor dolor sit amet fringilla. Ut pretium vulputate felis a luctus. Aliquam sit amet massa in purus tincidunt bibendum eu nec velit. Donec in mauris at lectus posuere consectetur. Curabitur mollis pretium nisi non interdum. Ut venenatis quam et dolor congue, id tempus nisl cursus. Ut mollis nibh sed felis sodales, nec congue magna lacinia. Nullam id fringilla mauris, vel blandit augue.<a href="#">link</a>.
             </p>
+
+
+            <div class="carousel">
+                <button class="arrow left" onclick="moveCarousel(-1)">&#10094;</button>
+                
+                <div class="carousel-images">
+                    <img src="assets/revistas/1a_edicao/revista_1a_edicao_capa.png" alt="Edição 1" class="carousel-image active">
+                    <img src="assets/revistas/2a_edicao/revista_2a_edicao_capa.png" alt="Edição 2" class="carousel-image">
+                    <img src="assets/revistas/1a_edicao/revista_1a_edicao_capa.png" alt="Edição 3" class="carousel-image">
+                </div>
+                
+                <button class="arrow right" onclick="moveCarousel(1)">&#10095;</button>
+            </div>
+
+            <p class="carousel-caption">Edição 1</p>
            
     </div>
+  
+
+
+
+
+
 
         <!-- Inputs de controle do slide -->
     <input type="radio" name="carousel" id="slide1" checked>
