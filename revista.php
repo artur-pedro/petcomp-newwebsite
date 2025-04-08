@@ -29,6 +29,38 @@
            
     </div>
 
+        <!-- Inputs de controle do slide -->
+    <input type="radio" name="carousel" id="slide1" checked>
+    <input type="radio" name="carousel" id="slide2">
+    <input type="radio" name="carousel" id="slide3">
+
+    <!-- Carrossel -->
+    <div class="carousel-container">
+        <div class="carousel">
+        <div class="revista" id="revista1">
+            <img src="assets/revistas/1a_edicao/revista_1a_edicao_capa.png" alt="Revista 1">
+        </div>
+        <div class="revista" id="revista2">
+            <img src="assets/revistas/2a_edicao/revista_2a_edicao_capa.png" alt="Revista 2">
+        </div>
+        <div class="revista" id="revista3">
+            <img src="assets/revistas/1a_edicao/revista_1a_edicao_capa.png"  alt="Revista 3">
+        </div>
+        </div>
+
+        <!-- Somente 2 setas -->
+        <div class="setas">
+        <label for="slide3" class="arrow" id="left">&#10094;</label>
+        <label for="slide2" class="arrow" id="right">&#10095;</label>
+
+        <label for="slide1" class="arrow" id="left2">&#10094;</label>
+        <label for="slide3" class="arrow" id="right2">&#10095;</label>
+
+        <label for="slide2" class="arrow" id="left3">&#10094;</label>
+        <label for="slide1" class="arrow" id="right3">&#10095;</label>
+        </div>
+    </div>
+
 
     <?php include 'footer.php'; ?>
 </body>
