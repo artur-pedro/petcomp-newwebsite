@@ -293,14 +293,18 @@ h4 {
 
     .infos {
         padding: 1rem;
-        text-align: center;
+        flex-direction: row;        
+        flex-wrap: wrap;          
+        justify-content: space-between; 
+        align-items: center;        
+        gap: 1rem;
 
         & h2 {
             font-size: 24px;
         }
 
         & img {
-            max-width: 90%;
+            max-width: 40%;
         }
     }
 
@@ -338,5 +342,45 @@ h4 {
         width: 90px;
         height: 28px;
         font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .infos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .infos img {
+        max-width: 40%;
+    }
+
+    .infos h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .infos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .infos img {
+        max-width: 45%;
+    }
+
+    .infos h2 {
+        font-size: 20px;
+    }
+
+    .texts {
+        padding-right: 0.5rem;
     }
 }
