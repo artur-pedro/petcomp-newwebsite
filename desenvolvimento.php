@@ -5,7 +5,7 @@
 <?php 
     $title = "PETComp";
     $cssFiles = ['css/fab-de-software.css'];
-    $jsFilesnondefer = ['js/swiper.js'];
+    $jsFiles = ['js/swiper.js'];
     include "head.php";
 ?>
 

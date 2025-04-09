@@ -102,10 +102,9 @@ const mostrarPodCast = data.map((item) => {
     </div>`;
 });
 
-// 3. Inserir no DOM
-document.querySelector('.episodios').innerHTML = mostrarPodCast.join('');
 
-// 4. Só agora: iniciar o Swiper
+document.querySelector('.swiper-wrapper').innerHTML = mostrarPodCast.join('');
+
 const swiper = new Swiper('.carousel', {
   spaceBetween: 50,
   pagination: {
@@ -113,9 +112,9 @@ const swiper = new Swiper('.carousel', {
     clickable: true,
     type: 'bullets',
   },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 });
 

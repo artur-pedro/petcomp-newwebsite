@@ -9,4 +9,4 @@ var swiper = new Swiper('.carousel', {
         delay: 2500,
         disableOnInteraction: false,
     },
-  })
+  });

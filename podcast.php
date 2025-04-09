@@ -32,12 +32,14 @@
 
         <section id="produtos-podcomp">
         <div class="swiper carousel">
-            <div class="swiper-wrapper episodios">
-            <!-- Slides vão aqui via JS -->
+            <div class="swiper-wrapper">
             </div>
             <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
         </div>
         </section>
+        
 
         <?php include 'footer.php'; ?>
         
