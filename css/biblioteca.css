@@ -53,6 +53,7 @@ h4 {
     padding: 1rem;
     background: linear-gradient(to right, #ffffff 20%, #e0dcff 80%);
     width: 590px;
+    height: 450px;
     box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.233);
     display: flex;
     justify-content: center;
