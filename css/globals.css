@@ -217,7 +217,6 @@
             & li {
                 font-size: 20px;
             }
-            
         }
     }
     @media screen and (min-width: 1230px) and (max-width: 1440px) {
@@ -238,8 +237,11 @@
             gap: 4rem;
         }
         a {
-            font-size: 1.5rem !important;
+            font-size: 0.9rem !important;
             opacity: 1;
+        }
+        .navbar a {
+            font-size: 1rem;
         }
         
     }
@@ -273,6 +275,12 @@
         }
         .footer-bottom {
             margin-bottom: 1rem;
+        }
+        header {
+            font-size: 10px;
+        }
+        .navbar a {
+            font-size: 15px;
         }
     }
 
