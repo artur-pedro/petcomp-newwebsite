@@ -28,9 +28,21 @@ body {
 h4 {
     display: inline;
 }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Pequeno movimento para dar um efeito mais suave */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .box-models {
     transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
+    animation: fadeIn 1s ease-out;
 }
 
 .box-models:hover {
@@ -38,36 +50,36 @@ h4 {
 }
 
 .box-models{
-    background-color: rgb(255, 255, 255);
-    height: auto;
+    padding: 1rem;
+    background: linear-gradient(to right, #ffffff 20%, #e0dcff 80%);
     width: 590px;
-    margin: auto;
+    height: 450px;
     box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.233);
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 18px;
-    padding: 28px;
-    padding-left: 37px;
-    padding-bottom: 13px;
     
     
     & h1{
-        text-align: left;
-        margin-bottom: 1.5rem;
+        text-align: center;
+        margin-bottom: 0.9rem;
     }
 
     & img{
-        padding: 1em;
+
         height: auto;
-        width: 200px;  
+        width: 160px;
+        margin: 1.5rem auto; 
     }
 }
 
 @media (max-width: 950px) {
     .box-models{
+        display: flex;
         flex-direction: column;
+        width: 300px !important;
+
     }
 }
 
@@ -76,6 +88,13 @@ h4 {
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.buttons-infos button:hover {
+    border: 1px solid #047CE0;
+    color: #047CE0;
 }
 
 .buttons-infos button{
@@ -88,6 +107,7 @@ h4 {
     font-weight: 600;
     border-radius: 12px;
     width: 99px;
+    cursor: pointer;
 }
 
 #acessar{
@@ -105,11 +125,11 @@ h4 {
 
 .cadeira-monitoria{   
     width: 1240px;
-    padding-inline: 114px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    margin-bottom: 40px;
+    margin: 2rem auto;
+    align-items: center;
 }
 
 @media (max-width:1100px){
@@ -169,6 +189,16 @@ h4 {
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
+    
+    .cadeira-monitoria {
+        width: 100px !important;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .box-models {
+        word-wrap: none;
+    }
     .container-header {
         padding: 20px 70px;
     }
@@ -199,6 +229,12 @@ h4 {
 }
 
 @media screen and (max-width: 600px) {
+    .cadeira-monitoria {
+        width: 100px !important;
+        display: flex;
+        flex-direction: column;
+
+    }
     .container-header {
         padding: 20px 40px;
     }
@@ -231,3 +267,9 @@ h4 {
         text-align: justify;
     }
   }
+  @media screen and (max-width: 768px) {
+    h4 {
+        font-size: 0.8rem;
+    }
+}
+  
