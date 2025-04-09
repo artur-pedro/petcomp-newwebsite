@@ -363,6 +363,13 @@ h4 {
     transform: scale(1);
 }
 
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .carousel-image.active {
     opacity: 1;
     transform: scale(1.3);

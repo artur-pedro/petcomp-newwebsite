@@ -26,15 +26,15 @@
 
 
             <div class="carousel">
-                <button class="arrow left" onclick="moveCarousel(-1)">&#10094;</button>
-                
                 <div class="carousel-images">
                     <img src="assets/revistas/1a_edicao/revista_1a_edicao_capa.png" alt="Edição 1" class="carousel-image active">
                     <img src="assets/revistas/2a_edicao/revista_2a_edicao_capa.png" alt="Edição 2" class="carousel-image">
                     <img src="assets/revistas/1a_edicao/revista_1a_edicao_capa.png" alt="Edição 3" class="carousel-image">
                 </div>
-                
-                <button class="arrow right" onclick="moveCarousel(1)">&#10095;</button>
+                <div class="carousel-controls">
+                    <button class="arrow left" onclick="moveCarousel(-1)">&#10094;</button>
+                    <button class="arrow right" onclick="moveCarousel(1)">&#10095;</button>
+                </div>
             </div>
 
             <p class="carousel-caption">Edição 1</p>
