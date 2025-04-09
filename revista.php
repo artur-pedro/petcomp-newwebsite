@@ -21,10 +21,7 @@
 
     <div class="container-body">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat iaculis neque. Nulla facilisi. Pellentesque eget ultrices lacus, vitae placerat massa. Quisque volutpat velit vulputate, viverra enim quis, vehicula leo. Nullam tincidunt sapien libero, eu aliquet arcu lacinia id. Quisque id volutpat sapien, non volutpat orci. Phasellus sollicitudin, sem eu gravida euismod, ante nunc cursus mi, cursus cursus massa tellus feugiat magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam finibus diam eget lorem pharetra, quis viverra velit tincidunt. Mauris euismod consectetur interdum. Duis vitae posuere tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus eget ipsum enim. Suspendisse vel eleifend lacus. Integer consequat lorem vel ex faucibus, sed viverra nisi placerat. Pellentesque quis nisl nec erat aliquam posuere. Curabitur et vestibulum nunc.
-            </p>
-            <p>
-            ue quis nisl nec erat aliquam posuere. Curabitur et vestibulum nunc. Vestibulum vel tellus sagittis eros imperdiet eleifend non quis leo. Sed vitae leo in diam imperdiet fermentum. Donec aliquam porttitor dolor sit amet fringilla. Ut pretium vulputate felis a luctus. Aliquam sit amet massa in purus tincidunt bibendum eu nec velit. Donec in mauris at lectus posuere consectetur. Curabitur mollis pretium nisi non interdum. Ut venenatis quam et dolor congue, id tempus nisl cursus. Ut mollis nibh sed felis sodales, nec congue magna lacinia. Nullam id fringilla mauris, vel blandit augue.<a href="#">link</a>.
+            A Revista PETComp foi lançada com o propósito de oferecer ao público uma visão abrangente dos projetos desenvolvidos pelo PETComp da UFMA, destacando nossa trajetória aos leitores interessados em conhecer mais sobre o PET de Ciência da Computação da Universidade Federal do Maranhão. A primeira edição foi lançada no ano de 2024, marcando o início desta iniciativa de compartilhar nossas atividades e conquistas. Nela, exploramos os projetos em que estamos envolvidos, combinando textos informativos com imagens ilustrativas para proporcionar uma experiência completa aos leitores. Aguardem as próximas edições para mais novidades sobre o nosso PETComp UFMA!
             </p>
 
 
@@ -49,7 +46,6 @@
 
 
 
-<<<<<<< Updated upstream
 
         <!-- Inputs de controle do slide -->
     <input type="radio" name="carousel" id="slide1" checked>
@@ -82,8 +78,6 @@
         <label for="slide1" class="arrow" id="right3">&#10095;</label>
         </div>
     </div>
-=======
->>>>>>> Stashed changes
 
 
     <?php include 'footer.php'; ?>
