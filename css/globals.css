@@ -238,7 +238,7 @@
             gap: 4rem;
         }
         a {
-            font-size: 1rem;
+            font-size: 1.5rem !important;
             opacity: 1;
         }
         
@@ -291,6 +291,7 @@
         a {
             font-size: 0.9rem;
             opacity: 1;
+
         }
         footer {
             padding-bottom: 1rem;
