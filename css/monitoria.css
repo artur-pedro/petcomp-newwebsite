@@ -55,10 +55,12 @@ h4 {
 }
 
 .image-container {
+    
     position: relative; /* Make this container the reference for absolute positioning */
 }
 
 .image-description {
+
     position: absolute; /* Position the description over the image */
     bottom: 10px; /* Align the description at the bottom */
     left: 50%; /* Center the text horizontally */
