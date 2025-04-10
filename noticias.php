@@ -52,59 +52,33 @@ if (!is_null($titulo) || !is_null($texto)) {
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="pt-BR">
 
-
-
-<head>
-
-  <meta charset="UTF-8">
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title> Notícias | PETComp</title>
-
-
-
-  <link rel="icon" href="./assets/images/logos/PETComp.png">
-
-
-
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-
-  <link rel="stylesheet" href="./styles/trabalhos_publicados.css">
-
-  <link rel="stylesheet" href="./styles/styles.css">
-
-  <link rel="stylesheet" href="./styles/styles2.css">
-
-  <link rel="stylesheet" href="./styles/publicacoes.css">
-
-</head>
-
-
+<?php 
+    $title = "Noticias";
+    $cssFiles = ['css/noticias.css'];
+    include 'head.php';
+?>
 
 <body>
 
+  <?php include('header.php') ?>
+
+  <div class="container-header">
+    <h2>Notícias</h2>
+    <h3>Confira as notícias mais recentes sobre o que fizemos</h3>
+    <h4><a href="index.php">Página Inicial</a></h4>
+    <h4> -> Notícias</h4>
+  </div>
+
+  <div class="container-body">
+          <p>
+            Bem-vindo à seção de notícias do PETComp, onde você encontrará as atualizações mais recentes sobre nossas ações, projetos e iniciativas. Nossa missão é promover a transparência e a comunicação com todos os nossos colaboradores, parceiros e comunidade em geral.
+            Aqui, você poderá acompanhar os avanços de nossos programas, eventos, parcerias e novidades importantes que fazem parte do nosso dia a dia. Através dessas atualizações, buscamos compartilhar nosso compromisso com a excelência e o impacto positivo que geramos nas áreas em que atuamos.
+          </p>
+  </div>
+
   <main>
-
-    <?php include('header.php') ?>
-
-
-
-    <div class="section-header">
-
-      <h2>Notícias</h2>
-
-    </div>
-
-
 
     <section class="container">
 
@@ -246,7 +220,7 @@ if (!is_null($titulo) || !is_null($texto)) {
 
 
 
-                        <a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo $url ?>" id="twitter-share-btt" rel="nofollow" target="_blank"><img src="./assets/svg/twitter_icon_copy.svg" alt=""></a>
+                        <a target="_blank" href="https://twitter.com/intent/tweet?url=<?php echo $url ?>" id="twitter-share-btt" rel="nofollow" target="_blank"><img class="img-noticias" src="./assets/svg/twitter_icon_copy.svg" alt=""></a>
 
 
 
@@ -260,9 +234,9 @@ if (!is_null($titulo) || !is_null($texto)) {
 
                         ?>
 
-                        <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo $url ?>"><img src="./assets/svg/facebook_icon_copy.svg" alt=""></a>
+                        <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php echo $url ?>"><img class="img-noticias" src="./assets/svg/facebook_icon_copy.svg" alt=""></a>
 
-                        <a href="whatsapp://send?text=<?php echo urlencode('Acesse: - ' . $url) ?>"><img src="./assets/svg/whatsapp.svg" alt=""></a>
+                        <a href="whatsapp://send?text=<?php echo urlencode('Acesse: - ' . $url) ?>"><img class="img-noticias" src="./assets/svg/whatsapp.svg" alt=""></a>
 
                       </div>
 
@@ -406,7 +380,7 @@ if (!is_null($titulo) || !is_null($texto)) {
 
 </div>
 
-<script src="./scripts/script.js"></script>
+<script src="./js/js.js"></script>
 
 </body>
 
