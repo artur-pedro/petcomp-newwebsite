@@ -25,6 +25,7 @@ body {
     text-align: justify;
 }
 
+
 h4 {
     display: inline;
 }
@@ -73,7 +74,20 @@ h4 {
         margin: 1.5rem auto; 
     }
 }
+#boxmodel1 {
+    background: linear-gradient(to right, #ffffff 20%, #E1F6FF 80%);
+}
 
+#boxmodel2 {
+    background: linear-gradient(to bottom, #ffffff 20%, #FFFAD4 80%);
+}
+
+#boxmodel3 {
+    background: linear-gradient(45deg, #ffffff 20%, #E3FFE1 80%);
+}
+#boxmodel4 {
+    background: linear-gradient(45deg, #ffffff 20%, #FFE1E1 80%);
+}
 @media (max-width: 950px) {
     .box-models{
         display: flex;

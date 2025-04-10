@@ -22,7 +22,7 @@
         </div>
 
         <div class = "cadeira-monitoria">
-            <div class= "box-models" >
+            <div class= "box-models" id="boxmodel1" >
                 <div>
                     <h1>Algorítmos 1</h1>
                     <div class="buttons-infos">
@@ -37,7 +37,7 @@
                 </div>
             </div>
             
-            <div class="box-models">
+            <div class="box-models" id="boxmodel2">
                 <div>
                     <h1>Cálculo 1</h1>
                     <div class="buttons-infos">
@@ -52,7 +52,7 @@
                 </div>
             </div>
             
-            <div class="box-models">
+            <div class="box-models" id="boxmodel3">
                 <div>
                     <h1>Estrutura de Dados 1</h1>
                     <div class="buttons-infos">
@@ -67,7 +67,7 @@
                 </div>
             </div>
 
-            <div class="box-models">
+            <div class="box-models" id="boxmodel4">
                 <div>
                     <h1>Linguagem de Programação 1</h1>
                     <div class="buttons-infos">
@@ -82,7 +82,7 @@
                 </div>
             </div>
             
-            <div class="box-models">
+            <div class="box-models" id="boxmodel5">
                 <div>
                     <h1>Matemática Discreta e Lógica</h1>
                     <div class="buttons-infos">
