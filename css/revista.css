@@ -43,14 +43,14 @@ h4 {
 }
 
 .noticia-image {
-    height: 60%;
+    height: 50%;
     width: auto;
     max-width: 100%;
     object-fit: contain; /* ou cover, se quiser preencher */
     padding: 2rem;
 }
 .swiper {
-    height: 1200px  !important;
+    height: 900px  !important;
     padding: 2rem;
 }
 
