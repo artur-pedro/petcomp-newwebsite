@@ -1,5 +1,8 @@
 html, body {
     overflow: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .container-header {
@@ -21,6 +24,38 @@ html, body {
 h4 {
     display: inline;
 }
+
+
+.swiper {
+    width: 100%;
+    height: 400px; /* defina a altura do carrossel */
+}
+
+.swiper-wrapper {
+    height: 100%;
+}
+
+.swiper-slide {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticia-image {
+    height: 70%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain; /* ou cover, se quiser preencher */
+    padding: 1rem;
+}
+.swiper {
+    height: 500px  !important;
+    padding: 3rem;
+}
+
+
 
 /**/
 
@@ -296,7 +331,6 @@ h4 {
     opacity: 0.6;
     z-index: 1;
   }
-  
   /* Setas fixas abaixo */
   .setas {
     margin-top: 2rem;
@@ -313,6 +347,7 @@ h4 {
     color: white;
     cursor: pointer;
   }
+  
   
   /* Exibe setas certas para cada slide */
   #slide1:checked ~ .carousel-container .setas #left,
@@ -342,7 +377,6 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px auto;
 }
 
 .carousel-images {
@@ -360,15 +394,103 @@ h4 {
     opacity: 0.3;
     transition: 0.3s ease;
     border-radius: 6px;
-    transform: scale(1);
 }
 
+.noticia-image {
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
+    animation: fadeIn 1s ease-out;
+}
+
+.noticia-image:hover {
+    transform: scale(1.05);
+}
+
+.swiper a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #01204C; /* Cor de fundo azul */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.swiper.carousel {
+    width: 100%;
+    max-width: 800px; /* ajustável conforme necessidade */
+    margin: 0 auto;
+    padding: 90px 0;
+    height: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    gap: 15px; /* espaço entre os elementos internos */
+}
+.swiper-caption {
+    font-size: 1.6rem !important;
+    font-weight: 600;
+    margin: 1rem auto;
+}
+.botoes {
+    display: inline;
+}
+/* Estilo dos bullets de navegação (paginações) */
+.swiper-pagination {
+    display: flex;
+    justify-content: center; /* Centraliza os bullets horizontalmente */
+    z-index: 10;
+  }
+  
+  /* Personalize os bullets */
+  .swiper-pagination-bullet {
+    background-color: #01204C; /* Cor dos bullets */
+  }
+  
+  /* Ajuste para o layout dos slides */
+  .swiper-slide {
+    display: flex;
+    justify-content: center; /* Centraliza os cards */
+  }
+  
+  /* Adicional: Adicionar margem aos slides, se necessário, para espaçamento */
+  .swiper-slide {
+    margin-bottom: 20px; /* Ajuste conforme o seu layout */
+  }
+.swiper a:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+    transform: scale(1.05);
+}
+
+.carousel-image:hover {
+    transform: scale(1.05);
+}
 .carousel-controls {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
 }
+.swiper-button-next,
+.swiper-button-prev {
+color: #000838; /* ou qualquer cor que combine com seu layout */
+
+}
+.swiper-pagination-bullet {
+    background-color: #01204C;
+    width: 12px; /* Tamanho dos bullets */
+    height: 12px; /* Tamanho dos bullets */
+    margin: 0 5px; /* Espaçamento entre os bullets */
+  }
 
 .carousel-image.active {
     opacity: 1;
