@@ -23,17 +23,17 @@
             <a href="#" class="dropbtn">Publicações <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
                 <a href="publicacoes.php">Trabalhos Publicos</a>
-                <a href="#">Revista PETComp</a>
+                <a href="revista.php">Revista PETComp</a>
             </div>
         </div>
         <div class="dropdown">
             <a href="noticias.php">Notícias</a>
         </div>
         <div class="dropdown">
-            <a href="noticias.php" class="dropbtn">Produtos <span class="material-icons">arrow_drop_down</span></a>
+            <a href="#" class="dropbtn">Produtos <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
                 <a href="biblioteca-petcomp-monitoria.php">Biblioteca PETComp</a>
-                <a href="produtos-podcomp.php">PodCast</a>
+                <a href="podcast.php">PodCast</a>
             </div>
         </div>
         <div class="dropdown">

@@ -1,0 +1,534 @@
+html, body {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container-header {
+    color: white;
+    background-color: #01204C;
+}
+
+.container-header a {
+    cursor: pointer;
+    color: #3AA3FC;
+    text-decoration: none;
+}
+
+.container-body p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+h4 {
+    display: inline;
+}
+
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-wrapper {
+    height: 100%;
+}
+
+.swiper-slide {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticia-image {
+    height: 50%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain; /* ou cover, se quiser preencher */
+    padding: 2rem;
+}
+.swiper {
+    height: 900px  !important;
+    padding: 2rem;
+}
+
+
+
+/**/
+
+
+
+/* Estilo para telas grandes (Desktop) */
+@media screen and (min-width: 1025px) {
+    .container-header {
+        padding: 50px 60px;
+    }
+
+    .container-header h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .container-header h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+    .container-header p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .container-body {
+        padding: 50px 60px;
+    }
+
+    .container-body p {
+        font-size: 20px;
+        font-weight: medium;
+    }
+
+    .gallery {
+        gap: 40px;
+        display: grid;
+        margin: 50px 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .group {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .group img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+
+/* Estilo para dispositivos com largura até 1024px (tablets e telas pequenas) */
+@media screen and (max-width: 1024px) {
+    .gallery {
+        display: flex;
+        flex-direction: column; /* Muda para layout em coluna */
+        margin: 30px 40px;
+        gap: 40px;
+    }
+
+    .group {
+        width: 100%; /* Cada imagem ocupa toda a largura disponível */
+        display: block; /* Imagens empilhadas verticalmente */
+        gap: 10px;
+    }
+    
+    .group img {
+        width: 100%;
+        height: auto; /* Mantém a proporção das imagens */
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .group img.wide {
+        grid-column: span 2;
+    }
+}
+
+/* Estilo para dispositivos com largura entre 601px e 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container-header {
+        padding: 20px 70px;
+    }
+
+    .container-header h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .container-header h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .container-header p {
+        font-size: 9px;
+        font-weight: normal;
+    }
+
+    .container-body {
+        padding: 20px 50px;
+    }
+
+    .container-body p {
+        font-size: 14px;
+        text-indent: 2em;
+    }
+}
+
+/* Estilo para dispositivos com largura até 768px (telas médias) */
+@media screen and (max-width: 768px) {
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    .group img {
+        opacity: 1;
+    }
+    .swiper {
+        height: 900px  !important;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+
+    color: #000838 !important; /* ou qualquer cor que combine com seu layout */
+    background-color: #ffffff !important;
+    border-radius: 2rem;
+    width: 2rem !important;
+    height: 2rem !important;
+}
+}
+
+/* Estilo para dispositivos com largura até 600px (smartphones) */
+@media screen and (max-width: 600px) {
+    .container-header {
+        padding: 20px 40px;
+    }
+
+    .container-header h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .container-header h3 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container-header p {
+        font-size: 5px;
+        font-weight: normal;
+    }
+
+    .container-body {
+        padding: 20px 40px;
+    }
+
+    .container-body p {
+        font-size: 10px;
+        text-indent: 2em;
+    }
+    .gallery {
+        gap: 20px;
+    }
+}
+
+
+
+/* Reset */
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #0c1f47;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  */
+  /* Carrossel */
+  .carousel-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .carousel {
+    position: relative;
+    height: 300px;
+  }
+  
+  .revista {
+    position: absolute;
+    width: 160px;
+    height: 230px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: 0.5s ease;
+  }
+  
+  .revista img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Slide 1 */
+  #slide1:checked ~ .carousel-container #revista1 {
+    left: 50%;
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
+  #slide1:checked ~ .carousel-container #revista2 {
+    left: 70%;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  #slide1:checked ~ .carousel-container #revista3 {
+    left: 15%;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  
+  /* Slide 2 */
+  #slide2:checked ~ .carousel-container #revista2 {
+    left: 50%;
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
+  #slide2:checked ~ .carousel-container #revista3 {
+    left: 70%;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  #slide2:checked ~ .carousel-container #revista1 {
+    left: 15%;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  
+  /* Slide 3 */
+  #slide3:checked ~ .carousel-container #revista3 {
+    left: 50%;
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+    z-index: 2;
+  }
+  #slide3:checked ~ .carousel-container #revista1 {
+    left: 70%;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  #slide3:checked ~ .carousel-container #revista2 {
+    left: 15%;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  /* Setas fixas abaixo */
+  .setas {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+  }
+  
+  /* Oculta todas por padrão */
+  .setas .arrow {
+    display: none;
+    font-size: 2.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  /* Exibe setas certas para cada slide */
+  #slide1:checked ~ .carousel-container .setas #left,
+  #slide1:checked ~ .carousel-container .setas #right { display: block; }
+  #slide2:checked ~ .carousel-container .setas #left2,
+  #slide2:checked ~ .carousel-container .setas #right2 { display: block; }
+  #slide3:checked ~ .carousel-container .setas #left3,
+  #slide3:checked ~ .carousel-container .setas #right3 { display: block; }
+  
+  .arrow:hover {
+    color: #ccc;
+  }
+  
+  /* Rodapé */
+  footer {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+  
+/*=======
+=======
+>>>>>>> Stashed changes
+*/
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    opacity: 0.3;
+    transition: 0.3s ease;
+    border-radius: 6px;
+}
+
+.noticia-image {
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
+    animation: fadeIn 1s ease-out;
+}
+
+.noticia-image:hover {
+    transform: scale(1.05);
+}
+
+.swiper a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #01204C; /* Cor de fundo azul */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.swiper.carousel {
+    width: 100%;
+    max-width: 800px; /* ajustável conforme necessidade */
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    gap: 15px; /* espaço entre os elementos internos */
+}
+.swiper-caption {
+    font-size: 1.6rem !important;
+    font-weight: 600;
+    margin: 1rem auto;
+}
+.botoes {
+    display: inline;
+    margin-bottom: 4rem !important;
+}
+.swiper-about {
+    text-align: justify !important;
+}
+/* Estilo dos bullets de navegação (paginações) */
+.swiper-pagination {
+    display: flex;
+    justify-content: center; /* Centraliza os bullets horizontalmente */
+    z-index: 10;
+  }
+  
+  /* Personalize os bullets */
+  .swiper-pagination-bullet {
+    background-color: #01204C; /* Cor dos bullets */
+  }
+  
+  /* Ajuste para o layout dos slides */
+  .swiper-slide {
+    display: flex;
+    justify-content: center; /* Centraliza os cards */
+  }
+  
+  /* Adicional: Adicionar margem aos slides, se necessário, para espaçamento */
+  .swiper-slide {
+    margin-bottom: 20px; /* Ajuste conforme o seu layout */
+  }
+.swiper a:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+    transform: scale(1.05);
+}
+
+.carousel-image:hover {
+    transform: scale(1.05);
+}
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ffffff; /* ou qualquer cor que combine com seu layout */
+    background-color: #000838;
+    border-radius: 5rem;
+    width: 5rem;
+    height: 5rem;
+}
+.swiper-pagination-bullet {
+    background-color: #01204C;
+    width: 12px; /* Tamanho dos bullets */
+    height: 12px; /* Tamanho dos bullets */
+    margin: 0 5px; /* Espaçamento entre os bullets */
+  }
+
+.carousel-image.active {
+    opacity: 1;
+    transform: scale(1.3);
+    border: 2px solid #01204C;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #01204C;
+    margin: 10px;
+}
+
+.carousel-caption {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #01204C;
+/*<<<<<<< Updated upstream*/
+}
+/*>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+*/

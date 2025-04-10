@@ -1,78 +1,153 @@
-html, body {
-    overflow: auto;
-}
+.noticias{
 
-.container-header {
-    color: white;
-    background-color: #01204C;
-}
+    padding: 100px;
 
-.container-header a {
-    cursor: pointer;
-    color: #3AA3FC;
+    padding-top: 40px;
+
+    border:none;
+
     text-decoration: none;
+
+    display:flex;
+
+    flex-direction: column;
+
+    font-size: 15px;
+
 }
 
-.container-body p {
-    line-height: 1.6;
+
+
+.resultados{
+
+  text-align: center;
+
+  padding-bottom: 16vh;
+
+} 
+
+
+
+.materia{
+
+    display:flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    background: #eeeeee70;
+
+    margin: 20px 0;
+
+    padding: 15px;
+
+}
+
+.materia > img{
+
+    width: 200px;
+
+    height: 200px;
+
+}
+
+.textoMateria{
+
+    display:flex;
+
+    flex-direction: column;
+
+    color: #888888;
+
+    padding:20px;
+
     text-align: justify;
-}
 
-h4 {
-    display: inline;
 }
 
 
 
-/* Estilo para telas grandes (Desktop) */
-@media screen and (min-width: 1025px) {
-    .container-header {
-        padding: 50px 60px;
-    }
+.textoMateria p {
 
-    .container-header h2 {
-        font-size: 50px;
-        margin-bottom: 20px;
-        font-weight: bold;
-    }
+  margin: 20px 0;
 
-    .container-header h3 {
-        font-size: 30px;
-        margin-bottom: 20px;
-        font-weight: normal;
-    }
+}
 
-    .container-header p {
-        font-size: 16px;
-        font-weight: normal;
-    }
+.botao{
 
-    .container-body {
-        padding: 50px 60px;
-    }
+    background: #33C3FF;
 
-    .container-body p {
-        font-size: 20px;
-        font-weight: medium;
-    }
+    width: 90px;
 
-    .gallery {
-        gap: 40px;
-        display: grid;
-        margin: 50px 40px;
-        grid-template-columns: repeat(2, 1fr);
-    }
+    height: 50px;
 
-    .group {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
+    font-family: Basic;
 
-    .group img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 30px;
-    }
+    font-style: normal;
+
+    font-weight: normal;
+
+    font-size: 15px;
+
+    line-height: 35px;
+
+    border: none;
+
+    border-radius: 2px;
+
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+.botao a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+}
+
+.botao a:visited {
+
+    color: white;
+
+}
+
+
+
+
+
+
+
+@media (max-width:800px) {
+
+  .noticias {
+
+    margin-bottom: 20px;
+
+    padding: 0;
+
+    width: 90%;
+
+  }
+
+
+
+  .materia {
+
+    flex-direction: column;
+
+    margin: 20px;
+
+    width: 100%;
+
+  }
+
 }

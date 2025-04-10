@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <?php 
-    $title = "PETComp";
+    $title = "Eventos";
     $cssFiles = ['css/eventos.css'];
     include "head.php";
 ?>
@@ -9,16 +9,16 @@
 <body>
     <?php include('header.php') ?>
     <main>
-    <div class="container-header">
-        <h2>Eventos</h2>
-        <h3>Confira os eventos nós promovemos</h3>
-        <h4><a href="index.php">Página Inicial</a></h4>
-        <h4> -> Eventos</h4> 
-    
-            
-            </div>
+        
+        <div class="container-header">
+            <h2>Eventos</h2>
+            <h3>Confira os eventos nós promovemos</h3>
+            <h4><a href="index.php">Página Inicial</a></h4>
+            <h4> -> Eventos</h4> 
+        </div>
+        
         <div class="container-body">
-        <p>Os eventos serão planejados através de reuniões entre o grupo. Na primeira reunião, um petiano é 
+            <p>Os eventos serão planejados através de reuniões entre o grupo. Na primeira reunião, um petiano é 
                 eleito líder do monitoramento das atividades a serem realizadas para que ocorra o evento. Este líder
                 , em conjunto com o tutor, indica membros para auxiliá-lo diretamente, podendo inclusive, ser todos 
                 os membros do PET. O tutor atua como facilitador entre as várias entidades e atores da universidade.
