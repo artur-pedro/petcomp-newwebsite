@@ -43,7 +43,7 @@ h4 {
 }
 
 .noticia-image {
-    height: 80%;
+    height: 60%;
     width: auto;
     max-width: 100%;
     object-fit: contain; /* ou cover, se quiser preencher */
