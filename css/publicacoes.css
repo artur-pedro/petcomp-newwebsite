@@ -1,0 +1,28 @@
+
+.publicacao {
+  align-items: left;
+  background: #eeeeee70;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 12px;
+  width: 85%;
+}
+
+.publicacao h2 {
+  color: #545457;
+  font-size: 28px;
+}
+
+.publicacao p {
+  color: #888888;
+  margin: 20px 0;
+}
+
+.publicacao a {
+  color: #33C3FF;
+  font-size: 16px;
+  text-decoration: none;
+  width: 70px;
+}

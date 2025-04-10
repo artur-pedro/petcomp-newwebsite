@@ -78,13 +78,13 @@ if (!is_null($titulo) || !is_null($texto)) {
 
 
 
-  <link rel="stylesheet" href="./styles/trabalhos_publicados.css">
+  <link rel="stylesheet" href="css/trabalhos_publicados.css">
 
-  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-  <link rel="stylesheet" href="./styles/styles2.css">
+  <link rel="stylesheet" href="css/styles2.css">
 
-  <link rel="stylesheet" href="./styles/publicacoes.css">
+  <link rel="stylesheet" href="css/publicacoes.css">
 
 </head>
 
