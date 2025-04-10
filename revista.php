@@ -41,6 +41,7 @@
                     <div class="swiper-slide">
                         <img class="noticia-image" src="<?= htmlspecialchars($revista['capa']) ?>" alt="<?= htmlspecialchars($revista['titulo']) ?>">
                         <p class="swiper-caption"><?= htmlspecialchars($revista['titulo']) ?></p>
+                        <p class="swiper-about"><?= htmlspecialchars($revista['sobre']) ?></p>
                         <div class="botoes">
                             <a href="<?= htmlspecialchars($revista['visualizar']) ?>" target="_blank">Visualizar</a>
                             <a href="<?= htmlspecialchars($revista['download']) ?>" download>Download</a>
