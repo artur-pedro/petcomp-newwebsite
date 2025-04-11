@@ -46,6 +46,13 @@
   
 
 
+<<<<<<< Updated upstream
+=======
+
+
+
+
+>>>>>>> Stashed changes
         <!-- Inputs de controle do slide -->
     <input type="radio" name="carousel" id="slide1" checked>
     <input type="radio" name="carousel" id="slide2">
