@@ -1,8 +1,12 @@
 html, body {
     overflow: auto;
+<<<<<<< Updated upstream
     margin: 0;
     padding: 0;
     height: 100%;
+=======
+   
+>>>>>>> Stashed changes
 }
 
 .container-header {
@@ -25,6 +29,7 @@ h4 {
     display: inline;
 }
 
+<<<<<<< Updated upstream
 
 .swiper {
     width: 100%;
@@ -59,6 +64,8 @@ h4 {
 /**/
 
 
+=======
+>>>>>>> Stashed changes
 
 /* Estilo para telas grandes (Desktop) */
 @media screen and (min-width: 1025px) {
@@ -228,40 +235,14 @@ h4 {
     }
 }
 
-
-
-/* Reset */
-
-/** {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #0c1f47;
-    font-family: Arial, sans-serif;
-    color: white;
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  header h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  header p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-  
+/*carrosel*/
   input[type="radio"] {
     display: none;
   }
-  */
+  
   /* Carrossel */
   .carousel-container {
+    margin-top: 150px !important;
     width: 100%;
     max-width: 900px;
     margin: auto;
@@ -270,13 +251,13 @@ h4 {
   
   .carousel {
     position: relative;
-    height: 300px;
+    height: 510px;
   }
   
   .revista {
     position: absolute;
-    width: 160px;
-    height: 230px;
+    width: 370px;
+    height: 480px;
     opacity: 0;
     transform: scale(0.8);
     transition: 0.5s ease;
@@ -292,6 +273,7 @@ h4 {
   /* Slide 1 */
   #slide1:checked ~ .carousel-container #revista1 {
     left: 50%;
+    
     transform: translateX(-50%) scale(1);
     opacity: 1;
     z-index: 2;
@@ -302,7 +284,7 @@ h4 {
     z-index: 1;
   }
   #slide1:checked ~ .carousel-container #revista3 {
-    left: 15%;
+    left: -11%;
     opacity: 0.6;
     z-index: 1;
   }
@@ -320,7 +302,7 @@ h4 {
     z-index: 1;
   }
   #slide2:checked ~ .carousel-container #revista1 {
-    left: 15%;
+    left: -11%;
     opacity: 0.6;
     z-index: 1;
   }
@@ -338,7 +320,7 @@ h4 {
     z-index: 1;
   }
   #slide3:checked ~ .carousel-container #revista2 {
-    left: 15%;
+    left: -11%;
     opacity: 0.6;
     z-index: 1;
   }
@@ -355,7 +337,7 @@ h4 {
   .setas .arrow {
     display: none;
     font-size: 2.5rem;
-    color: white;
+    color: #0c1f47;
     cursor: pointer;
   }
   
@@ -372,6 +354,7 @@ h4 {
     color: #ccc;
   }
   
+<<<<<<< Updated upstream
   /* Rodapé */
   footer {
     margin-top: 3rem;
@@ -532,3 +515,6 @@ h4 {
 =======
 >>>>>>> Stashed changes
 */
+=======
+  
+>>>>>>> Stashed changes
