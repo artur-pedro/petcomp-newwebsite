@@ -181,7 +181,7 @@
         gap: 2rem;
 
         & hr {
-            /* width: 100%; */
+            width: 100%;
             opacity: 1;
             border: 2px solid white;
         }
