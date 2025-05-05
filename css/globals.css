@@ -1,5 +1,6 @@
     /* Global */
 
+    
     * {
         margin: 0;
         padding: 0;
@@ -20,6 +21,10 @@
     footer {
         width: 100% !important;
         max-width:  100% !important;
+    }
+
+    h4 {
+        display: inline;
     }
 
     /* Header */

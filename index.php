@@ -44,9 +44,6 @@ function truncarTitulo($titulo, $limite = 30) {
     $cssFiles = ['css/index.css'];
     $jsFiles = ['js/swiper.js', 'js/index.js'];
     include "head.php";
-    
-    
-
 ?>
 
 <body>

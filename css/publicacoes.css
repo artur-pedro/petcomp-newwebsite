@@ -1,3 +1,40 @@
+.container-header {
+  color: white;
+  background-color: #01204C;
+}
+
+.container-header a {
+  cursor: pointer;
+  color: #3AA3FC;
+  text-decoration: none;
+}
+
+.container-body p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.container-header {
+  padding: 50px 60px;
+}
+
+.container-header h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container-header h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.container-header p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
 
 .publicacao {
   align-items: left;
