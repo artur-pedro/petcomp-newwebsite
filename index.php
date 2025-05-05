@@ -148,10 +148,11 @@ function truncarTitulo($titulo, $limite = 30) {
         <button type="button" class="swiper-button-prev"></button>
         <div class="swiper-pagination"></div>
     </div>
+
     <div class="atividades">
         <h2 class="activities-title">Atividades</h2>
         <div class="activities-card">
-            <img class="activities-img" src="img/image4.png" alt="monitoria">
+            <img class="activities-img" src="img/monitoria.png" alt="monitoria">
             <h3 class="activities-subtitle">
                 Monitoria
             </h3>
@@ -165,29 +166,29 @@ function truncarTitulo($titulo, $limite = 30) {
             <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
         </div>
         <div class="activities-card">
-            <img class="activities-img" src="img/desenvolvimento-web 1.png" alt="podcast" style="margin-bottom: 0.6rem;">
-            <h3 class="activities-subtitle" style="font-size: 25px;">
+            <img class="activities-img" src="img/desenvolvimento-web 1.png" alt="desenvolvimento">
+            <h3 class="activities-subtitle">
                 Fábrica de Software
             </h3>
             <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
         </div>
         <div class="activities-card">
-            <img class="activities-img" src="img/conferencia.png" alt="conferencia" style="margin-bottom: 1.4rem;">
-            <h3 class="activities-subtitle" style="font-size: 25px;">
+            <img class="activities-img" src="img/conferencia.png" alt="conferencia">
+            <h3 class="activities-subtitle">
                 Eventos
             </h3>
             <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
         </div>
         <div class="activities-card">
-            <img class="activities-img" src="img/livro-de-capa-preta-fechado.png" alt="conferencia" style="margin-bottom: 1.4rem;">
-            <h3 class="activities-subtitle" style="font-size: 25px;">
+            <img class="activities-img" src="img/livro-de-capa-preta-fechado.png" alt="conferencia">
+            <h3 class="activities-subtitle">
                 Artigos
             </h3>
             <a href=""><button class="saibamaisbtn">Saiba mais</button></a>
         </div>
         <div class="activities-card">
-            <img class="activities-img" src="img/curso-online.png" alt="miniscursos e oficinas" style="margin-bottom: 0.6rem;">
-            <h3 class="activities-subtitle" style="font-size: 25px;">
+            <img class="activities-img" src="img/curso-online.png" alt="minicursos e oficinas">
+            <h3 class="activities-subtitle">
                 Minicursos e oficinas
             </h3>
             <a href=""><button class="saibamaisbtn">Saiba mais</button></a>

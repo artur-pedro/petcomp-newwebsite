@@ -1,16 +1,17 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    overflow-x: hidden;/*Impede scrool lateral*/
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
     padding: 0;
-}
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 .background {
@@ -35,7 +36,6 @@ body {
 }
 
 .noticias-container img {
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Sombra sutil */
     height: auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -126,14 +126,11 @@ body {
 .central-title, .lateral-title {
     position: absolute;
     bottom: 20px;
-    left: 25px;
     color: white;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
-    background-color: rgba(1, 32, 76, 0.6);
     border-radius: 10px;
-    max-width: 80%;
     text-align: center;
     transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
 }
@@ -207,16 +204,6 @@ body {
     position: relative; /* Permite usar z-index para sobrepor elementos */
 }
 
-.background-img {
-    width: 100%; /* Faz com que a imagem ocupe toda a largura da div */
-    height: 100%; /* Faz com que a imagem ocupe toda a altura da div */
-    object-fit: cover; /* Garante que a imagem cubra toda a área sem distorcer */
-    position: absolute; /* Permite que a imagem fique atrás do texto */
-    top: 0;
-    left: 0;
-    z-index: 0; /* Garante que a imagem fique atrás do texto */
-}
-
 .minifundo h2 {
     color: white; /* Cor do texto para contraste */
     font-size: 5rem; /* Tamanho do texto */
@@ -262,7 +249,7 @@ body {
     gap: 100px; /* Adiciona espaço entre os itens */
     list-style: none; /* Remove marcadores padrão da lista */
     padding: 0; /* Remove o padding padrão */
-    margin-top: 5rem; /* Adiciona espaço acima da lista */
+    margin-top: 4rem; /* Adiciona espaço acima da lista */
     margin-bottom: 0px;
     align-items: center;
 }
@@ -273,19 +260,12 @@ body {
     margin-top: 0;
 }
 .minifundo ul li img {
-    width: 200px; /* Define o tamanho das imagens */
-    height: 200px; /* Define o tamanho das imagens */
+    width: 230px; /* Define o tamanho das imagens */
+    height: 230px; /* Define o tamanho das imagens */
     object-fit: contain; /* Ajusta a proporção sem distorcer */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona animações suaves */
-    cursor: pointer; /* Indica que as imagens são interativas */
     padding: 2rem;
     border-radius: 85px;
-}
-
-.minifundo ul li {
-    border: 7px solid white;
-    border-radius: 150px;
-    padding: 0.6rem;
 }
 
 .swiper-slide {
@@ -385,8 +365,8 @@ body {
   }
 .minifundo ul li img:hover {
     transform: scale(1.1); /* Amplia levemente a imagem ao passar o mouse */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao passar o mouse */
 }
+
 .atividades {
     background-color: #000227;
     width: 100vw;
@@ -396,7 +376,6 @@ body {
     flex-wrap: wrap;
     gap: 5rem;
     text-align: justify;
-    overflow-y: scroll;
     padding: 3rem 1rem;
     align-items: center;
     justify-content: center;
@@ -405,8 +384,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #001249;
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     padding: 1rem;
     justify-content: center;
     align-items: center;
@@ -415,13 +394,14 @@ body {
 .activities-subtitle {
     font-family: 'Alatsi';
     color: #3AA3FC;
-    font-size: 40px;
+    font-size: 25px;
 }
-.activities img {
+.activities-img {
     align-items: center;
-    width: 30px;
-    height: 30px;
+    max-width: 100px;
+    height: auto;
 }
+
 .activities-title {
     font-family: 'Alatsi';
     font-size: 70px;
@@ -431,15 +411,11 @@ body {
 .saibamaisbtn {
     height: 35px;
     width: 120px;
-    border: 3px solid white;
-    padding: 0.3rem;
+    border: 2.5px solid white;
     border-radius: 1rem;
     background-color: #001249;
     color: #fff;
     font-size: 14px;
-}
-#podcast-card {
-    margin-top: 1.4rem;
 }
 .final-text {
     font-family: 'Alatsi';
