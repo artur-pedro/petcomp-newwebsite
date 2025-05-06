@@ -9,11 +9,6 @@
   text-decoration: none;
 }
 
-.container-body p {
-  line-height: 1.6;
-  text-align: justify;
-}
-
 .container-header {
   padding: 50px 60px;
 }
@@ -34,6 +29,16 @@
   font-size: 16px;
   font-weight: normal;
 }
+
+.container-body {
+  padding: 50px 60px;
+}
+
+.container-body p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
 
 
 .publicacao {
@@ -62,4 +67,13 @@
   font-size: 16px;
   text-decoration: none;
   width: 70px;
+}
+
+
+/* Para telas grandes (Desktop) */
+@media screen and (min-width: 1025px) {
+  .container-body {
+    font-size: 20px;
+    font-weight: medium;
+  }
 }
