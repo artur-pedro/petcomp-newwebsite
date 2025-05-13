@@ -257,10 +257,35 @@
 
         .open-btn {
             height: 25px;
+            display: block;
+            cursor: pointer;
         }
 
         .navbar {
-            display: none;
+            display: none; /* Esconde o menu no mobile */
+            flex-direction: column;
+            width: 100%;
+            padding: 15px 0;
+            align-items: center; /* Centraliza os itens */
+            background-color: #01204C;
+            margin: auto auto;
+        }
+
+        .navbar a {
+            font-size: 1rem;
+            text-align: center; /* Garante que os links estejam centralizados */
+            padding: 10px;
+            width: 100%; /* Faz os links ocuparem toda a largura disponível */
+            box-sizing: border-box;
+        }
+
+        .navbar a:hover {
+            background-color: #002d5a;
+            border-radius: 5px;
+        }
+        
+        .navbar.active {
+            display: flex; /* Exibe o menu ao ser ativado */
         }
 
         .open-btn {
@@ -282,9 +307,6 @@
         }
         header {
             font-size: 10px;
-        }
-        .navbar a {
-            font-size: 15px;
         }
     }
 
@@ -343,47 +365,3 @@
             opacity: 1;
         }
     }
-    /* Responsividade para a Navbar no mobile */
-@media screen and (max-width: 950px) {
-    #logo {
-        height: 35px;
-    }
-
-    .open-btn {
-        height: 25px;
-    }
-
-    .navbar {
-        display: none; /* Esconde o menu no mobile */
-        flex-direction: column;
-        width: 100%;
-        padding: 15px 0;
-        align-items: center; /* Centraliza os itens */
-        background-color: #01204C;
-        margin: auto auto;
-    }
-
-    .navbar a {
-        font-size: 1rem;
-        text-align: center; /* Garante que os links estejam centralizados */
-        padding: 10px;
-        width: 100%; /* Faz os links ocuparem toda a largura disponível */
-        box-sizing: border-box;
-    }
-
-    .navbar a:hover {
-        background-color: #002d5a;
-        border-radius: 5px;
-    }
-
-    .open-btn {
-        display: block;
-        cursor: pointer;
-    }
-
-    .navbar.active {
-        display: flex; /* Exibe o menu ao ser ativado */
-    }
-}
-
-
