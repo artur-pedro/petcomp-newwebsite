@@ -33,7 +33,7 @@ CREATE TABLE `noticias` (
   `texto` text NOT NULL,
   `data` date NOT NULL,
   `foto` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Despejando dados para a tabela `noticias`
@@ -76,9 +76,9 @@ INSERT INTO `noticias` (`id`, `titulo`, `texto`, `data`, `foto`) VALUES
 CREATE TABLE `noticias_botoes` (
   `id` int NOT NULL,
   `idNoticia` int NOT NULL,
-  `botaoNome` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `botaoLink` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `botaoNome` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `botaoLink` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Despejando dados para a tabela `noticias_botoes`
@@ -122,7 +122,7 @@ CREATE TABLE `petianos` (
   `imagem` varchar(45) NOT NULL,
   `sobre` text,
   `social` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Despejando dados para a tabela `petianos`
@@ -300,11 +300,11 @@ CREATE TABLE `revista` (
   `id` int NOT NULL,
   `titulo` varchar(100) NOT NULL,
   `capa` varchar(255) NOT NULL,
-  `visualizar` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
+  `visualizar` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `download` varchar(255) NOT NULL,
   `sobre` text NOT NULL,
   `icone` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Despejando dados para a tabela `revista`
@@ -325,7 +325,7 @@ CREATE TABLE `sites` (
   `link` varchar(500) NOT NULL,
   `descricao` text NOT NULL,
   `evento` tinyint NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -341,7 +341,7 @@ CREATE TABLE `trabalhos_publicados` (
   `palavras_chaves` varchar(150) DEFAULT NULL,
   `resumo` text,
   `link` varchar(500) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Despejando dados para a tabela `trabalhos_publicados`
