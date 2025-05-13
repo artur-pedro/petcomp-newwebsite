@@ -22,7 +22,7 @@
         <div class="dropdown">
             <a href="#" class="dropbtn">Publicações <span class="material-icons">arrow_drop_down</span></a>
             <div class="dropdown-content">
-                <a href="publicacoes.php">Trabalhos Publicos</a>
+                <a href="publicacoes.php">Trabalhos Publicados</a>
                 <a href="revista.php">Revista PETComp</a>
             </div>
         </div>
