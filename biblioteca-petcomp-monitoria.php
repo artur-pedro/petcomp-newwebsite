@@ -21,82 +21,74 @@
             </p>        
         </div>
 
-        <div class = "cadeira-monitoria">
-            <div class= "box-models" id="boxmodel1" >
-                <div>
-                    <h1>Algorítmos 1</h1>
-                    <div class="buttons-infos">
-                        <button>Vídeo Aula</button>
-                        <button>Questionário</button>
-                        <button>Resumo</button>
-                        <button id='acessar'>Acessar</button>
+        <div class="box-container">
+            <div class = "sections-cards">
+                <div class="monitoring-card">
+                    <div class="card-background"  id = "card-1" ></div>
+                    <div class="card-item">
+                        <h3>Algoritmos 1</h3>
+                        <div class= "box-texts">
+                            <p>Vídeo aula</p>
+                            <p>Questionário</p>
+                            <p>Resumo</p>
+                            <a href="https://drive.google.com/drive/folders/1lgkO5emzPdYbeRuOvcedcDhmtHtW-U1U" target="_blank" >Acessar</a>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="img\algorítmos 1 - biblioteca.png" alt="Ícone Algorítmos 1">
-                </div>
-            </div>
-            
-            <div class="box-models" id="boxmodel2">
-                <div>
-                    <h1>Cálculo 1</h1>
-                    <div class="buttons-infos">
-                        <button>Vídeo Aula</button>
-                        <button>Questionário</button>
-                        <button>Resumo</button>
-                        <button id='acessar'>Acessar</button>
-                    </div>
-                </div>
-                <div>
-                    <img src="img\calc 1 - biblioteca.png" alt="Ícone Cálculo 1">
-                </div>
-            </div>
-            
-            <div class="box-models" id="boxmodel3">
-                <div>
-                    <h1>Estrutura de Dados 1</h1>
-                    <div class="buttons-infos">
-                        <button>Vídeo Aula</button>
-                        <button>Questionário</button>
-                        <button>Resumo</button>
-                        <button id='acessar'>Acessar</button>
-                    </div>
-                </div>
-                <div>
-                    <img src="img\estrutura de dados- biblioteca.png" alt="Ícone Estrutura de Dados 1">
-                </div>
-            </div>
 
-            <div class="box-models" id="boxmodel4">
-                <div>
-                    <h1>Linguagem de Programação 1</h1>
-                    <div class="buttons-infos">
-                        <button>Vídeo Aula</button>
-                        <button>Questionário</button>
-                        <button>Resumo</button>
-                        <button id='acessar'>Acessar</button>
+                <div class="monitoring-card">
+                    <div class="card-background"  id = "card-2"  ></div>
+                    <div class="card-item">
+                        <h3>Cálculo 1</h3>
+                        <div class= "box-texts">
+                            <p>Vídeo aula</p>
+                            <p>Questionário</p>
+                            <p>Resumo</p>
+                            <a href="https://drive.google.com/drive/folders/1lgkO5emzPdYbeRuOvcedcDhmtHtW-U1U" target="_blank">Acessar</a>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="img\linguagem de programacao - biblioteca.png" alt="Ícone Linguagem de Programação 1">
-                </div>
-            </div>
-            
-            <div class="box-models" id="boxmodel5">
-                <div>
-                    <h1>Matemática Discreta e Lógica</h1>
-                    <div class="buttons-infos">
-                        <button>Vídeo Aula</button>
-                        <button>Questionário</button>
-                        <button>Resumo</button>
-                        <button id='acessar'>Acessar</button>
+
+                <div class="monitoring-card">
+                    <div class="card-background" id = "card-3"></div>
+                    <div class="card-item">
+                        <h3>Estrutura de dados 1</h3>
+                        <div class= "box-texts">
+                            <p>Vídeo aula</p>
+                            <p>Questionário</p>
+                            <p>Resumo</p>
+                            <a href="https://drive.google.com/drive/folders/1lgkO5emzPdYbeRuOvcedcDhmtHtW-U1U" target="_blank">Acessar</a>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="img\matematica discreta e logica - biblioteca.png" alt="Ícone Matemática Discreta e Lógica">
+
+                <div class="monitoring-card">
+                    <div class="card-background"  id = "card-4" ></div>
+                    <div class="card-item">
+                        <h3>Linguagem de programação 1</h3>
+                        <div class= "box-texts">
+                            <p>Vídeo aula</p>
+                            <p>Questionário</p>
+                            <p>Resumo</p>
+                            <a href="https://drive.google.com/drive/folders/1lgkO5emzPdYbeRuOvcedcDhmtHtW-U1U" target="_blank">Acessar</a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="monitoring-card">
+                    <div class="card-background" id = "card-5" ></div>
+                    <div class="card-item">
+                        <h3>Matemática Discreta e Lógica</h3>
+                        <div class= "box-texts">
+                            <p>Vídeo aula</p>
+                            <p>Questionário</p>
+                            <p>Resumo</p>
+                            <a href="https://drive.google.com/drive/folders/1lgkO5emzPdYbeRuOvcedcDhmtHtW-U1U" target="_blank">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            
         </div>
     
     </main>

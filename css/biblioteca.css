@@ -8,7 +8,6 @@ body {
     text-align: justify;
     padding: 0px;
 }
-
 .container-header {
     color: white;
     background-color: #01204C;
@@ -25,149 +24,113 @@ body {
     text-align: justify;
 }
 
-
 h4 {
     display: inline;
 }
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px); /* Pequeno movimento para dar um efeito mais suave */
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
+/*--------------------Cards--------------------*/
 
-.box-models {
-    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out !important;
-    animation: fadeIn 1s ease-out;
-}
-
-.box-models:hover {
-    transform: scale(1.03) !important;
-}
-
-.box-models{
-    padding: 1rem;
-    background: linear-gradient(to right, #ffffff 20%, #e0dcff 80%);
-    width: 590px;
-    height: 450px;
-    box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.233);
+.box-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5.5rem;
+}
+.sections-cards{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 32px;
+    gap: 32px;
+    width: max-content;
+}
+.monitoring-card {
+    position: relative;
+    width: 490px;
+    height: 280px;
+    background-color: white;
+    box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.233);
     border-radius: 18px;
-    
-    
-    & h1{
-        text-align: center;
-        margin-bottom: 0.9rem;
-    }
-
-    & img{
-
-        height: auto;
-        width: 160px;
-        margin: 1.5rem auto; 
-    }
-}
-#boxmodel1 {
-    background: linear-gradient(to right, #ffffff 20%, #E1F6FF 80%);
+    overflow: hidden;
 }
 
-#boxmodel2 {
-    background: linear-gradient(to bottom, #ffffff 20%, #FFFAD4 80%);
+.card-background {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+    z-index: 1;
 }
 
-#boxmodel3 {
-    background: linear-gradient(45deg, #ffffff 20%, #E3FFE1 80%);
-}
-#boxmodel4 {
-    background: linear-gradient(45deg, #ffffff 20%, #FFE1E1 80%);
-}
-@media (max-width: 950px) {
-    .box-models{
-        display: flex;
-        flex-direction: column;
-        width: 300px !important;
-
-    }
+/*Cores de cada card*/
+#card-1 {
+    background-color: #93D7F4;
 }
 
-.buttons-infos {
+#card-2 {
+    background-color: #7C79FF; 
+}
+#card-3 {
+    background-color: #61E87F;
+}
+#card-4 {
+    background-color: #F25EB7;
+}
+#card-5 {
+    background-color: #A850FF;
+}
+
+.monitoring-card:hover .card-background {
+    transform: scale(10);
+}
+
+
+.box-texts {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-    align-items: center;
-    margin: 0 auto;
-    
-}
-.buttons-infos button:hover {
-    border: 1px solid #047CE0;
-    color: #047CE0;
-}
-
-.buttons-infos button{
+    gap: 6px;
+    align-items: flex-start;
     font-family: 'Mada';
-    font-size: 13px;
-    padding: 8px 12px;
-    border: 2px solid #b3b3b3;
-    color: #7d7d7d;
-    background-color: transparent;
-    font-weight: 600;
-    border-radius: 12px;
-    width: 99px;
-    cursor: pointer;
+    font-weight: bold;
 }
 
-#acessar{
-    font-family: 'Mada';
-    font-size: 13px;
-    padding: 8px 12px;
-    border: 2px solid #047CE0;
-    color: #047CE0;
-    background-color: transparent;
-    font-weight: 600;
-    border-radius: 18px;
-    width: 99px;
+.card-item {
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    color: #000;
 
-}
-
-.cadeira-monitoria{   
-    width: 1240px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin: 2rem auto;
-    align-items: center;
-}
-
-@media (max-width:1100px){
-    .cadeira-monitoria{
-        padding: 0 3rem;
+    a {
+        text-decoration: none;
+        color: #027BDF;
+        border: 2px solid #027BDF;
+        padding: 5px;
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
+        border-radius: 36px;
+        cursor: pointer;
     }
-}
 
-@media (max-width:550px){
-    .cadeira-monitoria{
-        padding: 0 2rem;
+    p{
+        color: #8E8D90;
+        display: inline-block;
+        border: 2px solid #8E8D90;
+        border-radius: 6px;
+        text-align: center;
+        padding: 2px 20px;
+        margin-bottom: 4px;
+        
     }
 }
 
 
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px); /* Pequeno movimento para dar um efeito mais suave */
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
+/*--------------------Responsive--------------------*/
+@media screen and (max-width: 1050px){
+    .sections-cards{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -199,27 +162,11 @@ h4 {
 
     .container-body p {
         font-size: 20px;
-    }
-    .box-models {
-        width: 100%;
-    }
-    .cadeira-monitoria {
-        width: 80%;
+        font-weight: medium;
     }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-    
-    
-    .cadeira-monitoria {
-        width: 100px !important;
-        display: flex;
-        flex-direction: column;
-
-    }
-    .box-models {
-        word-wrap: none;
-    }
     .container-header {
         padding: 20px 70px;
     }
@@ -247,49 +194,32 @@ h4 {
         font-size: 14px;
         text-indent: 2em;
     }
-    & h1 {
-        font-size: 1.2rem;
-    }
 }
 
 @media screen and (max-width: 600px) {
-
-    .box-models {
-        height: 480px;
-    }
-    & h1 {
-        font-size: 1.2rem;
-    }
-
-    .cadeira-monitoria {
-        width: 100px !important;
-        display: flex;
-        flex-direction: column;
-
-    }
     .container-header {
         padding: 20px 40px;
     }
-  
+
     .container-header h2 {
         font-size: 20px;
         margin-bottom: 10px;
     }
-  
+
     .container-header h3 {
         font-size: 10px;
         margin-bottom: 10px;
     }
-  
+
     .container-header p {
         font-size: 5px;
         font-weight: normal;
     }
-  
+
     .container-body {
         padding: 20px 40px;
     }
-  
+
     .container-body p {
         font-size: 10px;
         text-indent: 2em;
@@ -298,10 +228,4 @@ h4 {
         line-height: 1.6;
         text-align: justify;
     }
-  }
-  @media screen and (max-width: 768px) {
-    h4 {
-        font-size: 0.8rem;
-    }
 }
-  
